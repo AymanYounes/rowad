@@ -560,6 +560,11 @@ Gallery section
 }
 
 
+#gallery .item{
+    border-radius: 70px;
+    overflow: hidden;
+}
+
 #gallery .owl-prev,#gallery .owl-next{
     background: rgba(70,70,70,0.5);
     padding: 17px 30px;

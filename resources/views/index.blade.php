@@ -757,26 +757,34 @@
 
                     <div class="owl-carousel-3col" data-nav="true">
                         <div class="item">
-                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/1.png">
-                                <img width="240" src="images/gallery/1.png" alt="">
+                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/1.webp">
+                                <img width="240" src="images/gallery/thumb/1.webp" alt="gallery">
                             </a>
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/2.png">
-                                <img width="240" src="images/gallery/2.png" alt="">
+                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/2.webp">
+                                <img width="240" src="images/gallery/thumb/2.webp" alt="gallery">
                             </a>
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/1.png">
-                                <img width="240" src="images/gallery/1.png" alt="">
+                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/3.webp">
+                                <img width="240" src="images/gallery/thumb/3.webp" alt="gallery">
                             </a>
-
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/2.png">
-                                <img width="240" src="images/gallery/2.png" alt="">
+                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/4.webp">
+                                <img width="240" src="images/gallery/thumb/4.webp" alt="gallery">
                             </a>
-
+                        </div>
+                        <div class="item">
+                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/5.webp">
+                                <img width="240" src="images/gallery/thumb/5.webp" alt="gallery">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a data-rel="prettyPhoto[gallery1]" href="images/gallery/6.webp">
+                                <img width="240" src="images/gallery/thumb/6.webp" alt="gallery">
+                            </a>
                         </div>
                     </div>
 
