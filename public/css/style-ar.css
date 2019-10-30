@@ -112,7 +112,9 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     }
 }
 
-
+.img-title h5 {
+    font-size: 18px;
+}
 
 /*
 --------------------------
@@ -135,4 +137,6 @@ label[for="photo"] {
     margin-left: 0%;
     margin-top: -45px;
 }
+
+
 
