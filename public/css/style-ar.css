@@ -1,0 +1,109 @@
+body ,.menuzord, .menuzord *,h5, h6, p {
+    font-family: Tajawal;
+}
+
+
+.menuzord-menu > li{
+    float: right !important;
+}
+
+
+.menuzord-menu > li > a{
+    font-size: 16px;
+}
+
+.tp-parallax-wrap{
+    position: relative !important;
+    width: 100%;
+    text-align: center;
+    left: 0 !important;
+    top: 0 !important;
+    /*right: 30%;*/
+}
+.tp-loop-wrap{
+    position: relative !important;
+    width: 100% !important;
+    text-align: center;
+    max-height: 150px;
+
+}
+
+.tp-mask-wrap{
+    position: relative !important;
+    width: 100% !important;
+    text-align: center;
+
+    margin: 25px 0 ;
+}
+
+.tp-caption{
+    height: 70px;
+}
+
+
+
+.about-p {
+    line-height: 75px;
+}
+
+
+.icon-box .pull-left{
+    float: right !important;
+}
+.icon-box.left a {
+     margin-right: 0 !important;
+}
+
+
+/*.img-title {*/
+/*     margin-top: 0 !important;*/
+/*    top: 50px;*/
+/*}*/
+
+
+#products .section-content, #gallery .section-content, #partners .section-content{
+    direction: ltr !important;
+}
+
+.owl-controls .owl-next{
+    right: 0 !important;
+    left: auto !important;
+}
+
+
+.blog-posts .post.style1 .entry-header .entry-date.entry-date-absolute {
+    right: -30px !important;
+    left: auto !important;
+}
+
+
+#contact .text-left{
+    text-align: right;
+}
+
+
+.contact-us-form{
+    float: right !important;
+}
+
+.form-wrapper{
+    float: left;
+}
+
+#contact .form-group label {
+    margin-right: 20px;
+}
+
+
+.footer-nav .text-left{
+    text-align: right !important;
+}
+@media only screen and (max-width: 768px){
+    #contact .text-left {
+        text-align: center;
+    }
+    .tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .tp-caption {
+         min-height: 90px;
+     }
+}
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../attcar/.idea/attrcar.iml" filepath="$PROJECT_DIR$/../attcar/.idea/attrcar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rowad.iml" filepath="$PROJECT_DIR$/.idea/rowad.iml" />
+    </modules>
+  </component>
+</project>
