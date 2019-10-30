@@ -25,5 +25,6 @@ return [
     'gallery' => 'Gallery',
     'catalog' => 'Catalog',
     'contact' => 'Contact',
+    'offer' => 'Get offer price',
 
 ];
