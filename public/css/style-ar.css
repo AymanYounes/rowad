@@ -3,6 +3,12 @@ body ,.menuzord, .menuzord *,h5, h6, p {
 }
 
 
+.pull-left.flip {
+    float: left !important;
+}
+
+
+
 .menuzord-menu > li{
     float: right !important;
 }
@@ -12,36 +18,38 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     font-size: 16px;
 }
 
-.tp-parallax-wrap{
-    position: relative !important;
-    width: 100%;
-    text-align: center;
-    left: 0 !important;
-    top: 0 !important;
-    /*right: 30%;*/
-}
-.tp-loop-wrap{
-    position: relative !important;
-    width: 100% !important;
-    text-align: center;
-    max-height: 150px;
+/*.tp-parallax-wrap{*/
+/*    position: relative !important;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    left: 0 !important;*/
+/*    top: 0 !important;*/
+/*    !*right: 30%;*!*/
+/*}*/
+/*.tp-loop-wrap{*/
+/*    position: relative !important;*/
+/*    width: 100% !important;*/
+/*    text-align: center;*/
+/*    max-height: 150px;*/
 
-}
+/*}*/
 
-.tp-mask-wrap{
-    position: relative !important;
-    width: 100% !important;
-    text-align: center;
+/*.tp-mask-wrap{*/
+/*    position: relative !important;*/
+/*    width: 100% !important;*/
+/*    text-align: center;*/
 
-    margin: 25px 0 ;
-}
+/*    margin: 25px 0 ;*/
+/*}*/
 
 .tp-caption{
     height: 70px;
 }
 
 
-
+.about-content-wrapper , .float-rtl-left{
+    float: left !important;
+}
 .about-p {
     line-height: 75px;
 }
@@ -102,8 +110,5 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     #contact .text-left {
         text-align: center;
     }
-    .tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .tp-caption {
-         min-height: 90px;
-     }
 }
 

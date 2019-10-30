@@ -21,6 +21,9 @@
 
     <!-- Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    @if(Config::get('app.locale') == 'ar')
+        <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
+    @endif
     <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/css-plugin-collections.css" rel="stylesheet"/>

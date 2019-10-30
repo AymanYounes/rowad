@@ -1,9 +1,6 @@
 @extends('layouts.app')
 @section('title', 'Home Page')
-@section('sidebar')
-    @parent
 
-@endsection
 
 @section('content')
 
@@ -12,8 +9,9 @@
     <section id="home" class="divider">
         <div class="container-fluid p-0">
 
+
             <!-- Slider Revolution Start -->
-            <div class="rev_slider_wrapper">
+            <div dir="ltr" class="rev_slider_wrapper">
                 <div class="rev_slider" data-version="5.0">
                     <ul>
 
@@ -459,7 +457,7 @@
     <section id="about">
         <div class="row">
 
-            <div class="col-lg-7 col-md-6 col-sm-5  p-0">
+            <div class="col-lg-7 col-md-6 col-sm-5  p-0 float-rtl-left">
 
             </div>
             <div class="col-lg-5 col-md-6 col-sm-7 p-0 about-content-wrapper">
@@ -1060,6 +1058,7 @@
 
 
 @section('scripts')
+
 
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
       (Load Extensions only on Local File Systems !
