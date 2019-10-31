@@ -40,25 +40,44 @@ return [
     'jacuzzi' => 'JACUZZI BUILD UP',
     'sauna' => 'sauna BUILD UP',
 
+
+    //products
     'products' => 'Products',
     'productsSlogan' => 'Take a look at our high quality products that we use in',
 
     'poolAccessories' => 'POOL accessories',
+    'poolAccessoriesDesc' => 'Unique accessories with modern style
+and the best quality for your pool',
     'poolFilters' => 'Swimming Pool filters',
+    'poolFiltersDesc' => 'High quality filters to keep your
+Pool’s water clean and safe',
     'poolHeater' => 'Swimming pool heater',
+    'poolHeaterDesc' => 'Heaters to warm the water of your pool
+and keep the temperature balanced',
     'poolSpotlight' => 'Swimming pool Spotlight',
+    'poolSpotlightDesc' => 'Spotlights to light up and add aesthetic
+touches to your pool’s decor',
     'poolCover' => 'Swimming pool cover',
+    'poolCoverDesc' => 'Protect your pool from dust and
+water contaminants with the best covers',
     'poolBrush' => 'Swimming pool brush',
+    'poolBrushDesc' => 'High quality equipment to clean and
+maintain your pool in the easiest way',
     'allProducts' => 'All Products',
+
+    //gallery
     'gallery' => 'Gallery',
     'news' => 'News',
     'newsSlogan' => 'Find out more about our news and updates',
     'dec' => 'Dec',
 
 
+    //contact
     'contact' => 'Contact',
     'us' => 'Us',
     'needService' => 'NEED SERVICE?',
+    'contactAddress1' => 'Saudi Arabia, Riyadh ',
+    'contactAddress2' => 'Eastern and Western Region',
     'contactUsDetails' => 'Contact Us <br>',
     'viaForm' => 'VIA THIS FORM',
     'respond' => 'AND WE\'LL RESPOND',

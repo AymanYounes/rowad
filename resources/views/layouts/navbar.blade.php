@@ -9,7 +9,7 @@
     <a href="{{url('products')}}" class="{{(Route::current()->getName() == 'productsPage')? 'text-white':''}}">{{trans('nav.products')}}</a>
     <a href="{{url('gallery')}}" class="{{(Route::current()->getName() == 'galleryPage')? 'text-white':''}}">{{trans('nav.gallery')}}</a>
     <a href="{{url('contact')}}" class="{{(Route::current()->getName() == 'contactPage')? 'text-white':''}}">{{trans('nav.contact')}}</a>
-    <a href="{{url('getOffer')}}" class="{{(Route::current()->getName() == 'getOfferPage')? 'text-white':''}}">{{trans('nav.offer')}}</a>
+    <a href="{{url('get-offer')}}" class="{{(Route::current()->getName() == 'getOfferPage')? 'text-white':''}}">{{trans('nav.offer')}}</a>
 </div>
 
 <!-- Use any element to open the sidenav -->

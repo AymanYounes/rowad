@@ -16,12 +16,13 @@ return [
     |
     */
 
-    'driver' => env('MAIL_DRIVER', 'smtp'),
+//    'driver' => env('MAIL_DRIVER', 'smtp'),
+    'driver' => env('MAIL_DRIVER', 'mailgun'),
 
     /*
     |--------------------------------------------------------------------------
     | SMTP Host Address
-    |--------------------------------------------------------------------------
+    |--------------------------------------------------------------------------mailgun
     |
     | Here you may provide the host address of the SMTP server used by your
     | applications. A default option is provided that is compatible with
@@ -56,6 +57,11 @@ return [
     */
 
     'from' => [
+        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+        'name' => env('MAIL_FROM_NAME', 'Example'),
+    ],
+
+    'reply_to' => [
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],

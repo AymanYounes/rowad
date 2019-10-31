@@ -487,7 +487,7 @@
             <div class="section-content">
                 <div class="row mt-20">
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 float-rtl-left">
                         <div class="icon-box left media p-0">
                             <a href="#" class="media-left pull-left goals-img-wrapper">
                                 <img src="images/goals-icon.png" alt="">
@@ -502,7 +502,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 float-rtl-left">
                         <div class="icon-box left media p-0">
                             <a href="#" class="media-left pull-left goals-img-wrapper">
                                 <img src="images/vision-icon.png" alt="">
@@ -525,7 +525,8 @@
         <!--      <section class="pt-20">-->
         <div class="services-wrapper">
 
-            <h2 class="section-head services-head font-tajawal"><span class="section-head-white font-regular">{{trans('homePage.our')}}</span> {{trans('homePage.services')}}</h2>
+            <h2 class="section-head services-head font-tajawal">
+                <span class="section-head-white font-regular">{{trans('homePage.our')}}</span> {{trans('homePage.services')}}</h2>
             <div class="section-content">
                 <div class="row mt-50">
                     <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
@@ -645,7 +646,7 @@
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolAccessories')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                            <h5 class="text-center">{{trans('homePage.poolAccessoriesDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -659,7 +660,7 @@
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolFilters')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                            <h5 class="text-center">{{trans('homePage.poolFiltersDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -673,7 +674,7 @@
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolHeater')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                            <h5 class="text-center">{{trans('homePage.poolHeaterDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -687,7 +688,7 @@
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolSpotlight')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                            <h5 class="text-center">{{trans('homePage.poolSpotlightDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -701,7 +702,7 @@
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolCover')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                            <h5 class="text-center">{{trans('homePage.poolCoverDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -715,7 +716,7 @@
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolBrush')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                            <h5 class="text-center">{{trans('homePage.poolBrushDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -919,7 +920,7 @@
             </div>
             <div class="col-sm-4 contact-sec sec_3">
                 <i class="fa fa-map-marker"></i>
-                <p class="font-tajawal">Saudi Arabia, Riyadh</br>Eastern and Western Region</p>
+                <p class="font-tajawal">{{trans('homePage.contactAddress1')}} <br>{{trans('homePage.contactAddress2')}}</p>
             </div>
         </div>
 
@@ -949,22 +950,22 @@
             <div class="col-sm-6  col-xs-12 order-md-first order-last contact-us-form">
 
                 <div class="form-wrapper pb-50">
-                    <form>
+                    <form method="put" action="{{url('/laravel-send-contact-email')}}">
                         <div class="form-group">
                             <label for="name" class="font-bold">{{trans('homePage.fullName')}}</label>
-                            <input type="text" class="form-input form-control" id="name">
+                            <input type="text" name="name" class="form-input form-control" id="name">
                         </div>
                         <div class="form-group">
                             <label for="email" class="font-bold">{{trans('homePage.emailAddress')}}</label>
-                            <input type="email" class="form-input form-control" id="email">
+                            <input type="email" name="email" class="form-input form-control" id="email">
                         </div>
                         <div class="form-group">
                             <label for="phone" class="font-bold">{{trans('homePage.phoneNumber')}}</label>
-                            <input type="number" class="form-input form-control" id="phone">
+                            <input type="number" name="phone" class="form-input form-control" id="phone">
                         </div>
                         <div class="form-group">
                             <!--                              <label for="phone">Phone Number</label>-->
-                            <textarea type="number" class="form-input form-control" id="message" placeholder="{{trans('homePage.messageHere')}}"></textarea>
+                            <textarea name="message" class="form-input form-control" id="message" placeholder="{{trans('homePage.messageHere')}}"></textarea>
                         </div>
 
                         <div class="form-group text-center">

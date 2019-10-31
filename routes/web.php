@@ -51,4 +51,9 @@ Route::group(['middleware' => 'language'], function () {
         return view('getOffer');
     })->name('getOfferPage');
 
+
+
+
+
+    Route::match(['get', 'post'], 'laravel-send-contact-email', 'EmailsController@contact');
 });

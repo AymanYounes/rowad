@@ -15,48 +15,50 @@
 
 
 
-            <div class="col-sm-6 order-md-last order-first hidden-sm hidden-md hidden-lg">
+
+
+            <div class="col-sm-6 col-xs-12 order-md-last order-first hidden-sm hidden-md hidden-lg ">
                 <h2 class="section-head text-left font-tajawal text-uppercase text-white contact-head">
-                    <span class="font-regular ">Contact</span> US
+                    <span class="font-regular ">{{trans('homePage.contact')}}</span> {{trans('homePage.us')}}
                 </h2>
                 <div class="section-head-underline m-0" style="width: 400px"></div>
 
                 <!--                  <p class="contact-p font-tajawal font-bold text-white text-uppercase font-72"> Need Service?</p>-->
-                <p class="contact-p font-tajawal font-bold text-white text-uppercase"> NEED SERVICE? <br>
-                    CONTACT US
-                    VIA THIS FORM
-                    AND WE'LL RESPOND
-                    AS SOON AS POSSIBLE.
+                <p class="contact-p font-tajawal font-bold text-white text-uppercase"> {{trans('homePage.needService')}} <br>
+                    {{trans('homePage.contactUsDetails')}}
+                    {{trans('homePage.viaForm')}}  <br>
+                    {{trans('homePage.respond')}} <br>
+                    {{trans('homePage.asap')}}
                 </p>
                 <p class="contact-note font-regular theme-second-color font-tajawal">
-                    Please check the details before entering them so our team can contact you correctly.
+                    {{trans('homePage.checkDetails')}}<br> {{trans('homePage.ourTeamContact')}}<br> {{trans('homePage.correctly')}}.
                 </p>
 
             </div>
 
-            <div class="col-sm-6 order-md-first order-last">
+            <div class="col-sm-6  col-xs-12 order-md-first order-last contact-us-form">
 
                 <div class="form-wrapper pb-50">
                     <form>
                         <div class="form-group">
-                            <label for="name" class="font-bold">Full Name</label>
+                            <label for="name" class="font-bold">{{trans('homePage.fullName')}}</label>
                             <input type="text" class="form-input form-control" id="name">
                         </div>
                         <div class="form-group">
-                            <label for="email" class="font-bold">Email Address</label>
+                            <label for="email" class="font-bold">{{trans('homePage.emailAddress')}}</label>
                             <input type="email" class="form-input form-control" id="email">
                         </div>
                         <div class="form-group">
-                            <label for="phone" class="font-bold">Phone Number</label>
+                            <label for="phone" class="font-bold">{{trans('homePage.phoneNumber')}}</label>
                             <input type="number" class="form-input form-control" id="phone">
                         </div>
                         <div class="form-group">
                             <!--                              <label for="phone">Phone Number</label>-->
-                            <textarea type="number" class="form-input form-control" id="message" placeholder="Your Message Here"></textarea>
+                            <textarea type="number" class="form-input form-control" id="message" placeholder="{{trans('homePage.messageHere')}}"></textarea>
                         </div>
 
                         <div class="form-group text-center">
-                            <input type="submit" class="btn btn-primary form-submit font-tajawal font-bold pl-40 pr-40" value="SEND NOW">
+                            <input type="submit" class="btn btn-primary form-submit font-tajawal font-bold pl-40 pr-40" value="{{trans('homePage.sendNow')}}">
                         </div>
                     </form>
                 </div>
@@ -64,23 +66,22 @@
             </div>
             <div class="col-sm-6 order-md-last order-first hidden-xs ">
                 <h2 class="section-head text-left font-tajawal text-uppercase text-white contact-head">
-                    <span class="font-regular ">Contact</span> US
+                    <span class="font-regular ">{{trans('homePage.contact')}}</span> {{trans('homePage.us')}}
                 </h2>
                 <div class="section-head-underline m-0" style="width: 400px"></div>
 
                 <!--                  <p class="contact-p font-tajawal font-bold text-white text-uppercase font-72"> Need Service?</p>-->
-                <p class="contact-p font-tajawal font-bold text-white text-uppercase"> NEED SERVICE? <br>
-                    CONTACT US <br>
-                    VIA THIS FORM <br>
-                    AND WE'LL RESPOND <br>
-                    AS SOON AS POSSIBLE.
+                <p class="contact-p font-tajawal font-bold text-white text-uppercase"> {{trans('homePage.needService')}} <br>
+                    {{trans('homePage.contactUsDetails')}}
+                    {{trans('homePage.viaForm')}}  <br>
+                    {{trans('homePage.respond')}} <br>
+                    {{trans('homePage.asap')}}
                 </p>
                 <p class="contact-note font-regular theme-second-color font-tajawal">
-                    Please check the details before entering<br> them so our team can contact you<br> correctly.
+                    {{trans('homePage.checkDetails')}}<br> {{trans('homePage.ourTeamContact')}}<br> {{trans('homePage.correctly')}}.
                 </p>
 
             </div>
-
 
         </div>
     </section>

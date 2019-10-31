@@ -14,7 +14,7 @@
             <div class="section-title text-center">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h2 class="section-head text-center font-tajawal text-uppercase"><span class="section-head-white ">Gallery</span></h2>
+                        <h2 class="section-head text-center font-tajawal text-uppercase"><span class="section-head-white ">{{trans('homePage.gallery')}}</span></h2>
                         <div class="section-head-underline" style="width: 200px"></div>
 
                     </div>

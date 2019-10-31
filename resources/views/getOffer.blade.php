@@ -53,10 +53,8 @@
 
                                             <label for="region" class="font-tajawal font-medium">{{trans('offerPage.region')}}</label>
                                             <select name="region" id="region" class="form-control get-offer-input minimal" required>
-                                                <option> {{trans('offerPage.regionOption')}} </option>
-                                                <option> {{trans('offerPage.regionOption')}} </option>
-                                                <option> {{trans('offerPage.regionOption')}} </option>
-                                                <option> {{trans('offerPage.regionOption')}} </option>
+                                                <option> {{trans('offerPage.regionOption1')}} </option>
+                                                <option> {{trans('offerPage.regionOption2')}} </option>
                                             </select>
                                         </div>
                                     </div>
@@ -72,8 +70,11 @@
                                             <label for="service" class="font-tajawal font-medium">{{trans('offerPage.chooseService')}}</label>
                                             <select name="service" id="service" class="form-control get-offer-input minimal" required>
                                                 <option> {{trans('offerPage.service-1')}} </option>
-                                                <option> {{trans('offerPage.service-1')}} </option>
-                                                <option> {{trans('offerPage.service-1')}} </option>
+                                                <option> {{trans('offerPage.service-2')}} </option>
+                                                <option> {{trans('offerPage.service-3')}} </option>
+                                                <option> {{trans('offerPage.service-4')}} </option>
+                                                <option> {{trans('offerPage.service-5')}} </option>
+                                                <option> {{trans('offerPage.service-6')}} </option>
                                             </select>
                                         </div>
                                     </div>
@@ -129,6 +130,9 @@
                                 </div>
 
 
+                                <div class="form-group text-center">
+                                    <input type="submit" class="btn btn-primary form-submit font-tajawal font-bold pl-40 pr-40" value="{{trans('homePage.sendNow')}}">
+                                </div>
                             </form>
                         </div>
 

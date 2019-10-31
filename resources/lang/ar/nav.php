@@ -22,7 +22,7 @@ return [
     'products' => 'منتجاتنا',
     'gallery' => 'معرض الصور',
     'catalog' => 'الكتالوج',
-    'contact' => 'إتصل بنا',
+    'contact' => 'تواصل معنا',
     'offer' => ' عرض سعر',
 
 ];

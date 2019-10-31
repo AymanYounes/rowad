@@ -112,6 +112,11 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     }
 }
 
+@media only screen and (max-width: 1400px){
+    .goals-p {
+        font-size: 28px;
+    }
+}
 .img-title h5 {
     font-size: 18px;
 }
@@ -134,9 +139,10 @@ select.minimal:focus {
 
 label[for="photo"] {
     float: left;
-    margin-left: 0%;
+    margin-left: 10%;
     margin-top: -45px;
 }
 
-
-
+#filename{
+    float: right !important;
+}
