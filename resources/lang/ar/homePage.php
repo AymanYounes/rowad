@@ -104,4 +104,8 @@ return [
     'designedBy' => 'تصميم وبرمجة',
     'rightsReserved' => 'جميع الحقوق محفوظة',
 
+
+
+
+    'getService' => 'احصل على خدمة',
 ];

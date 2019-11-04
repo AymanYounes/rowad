@@ -2,6 +2,9 @@
 
 
 <div id="mySidenav" class="sidenav text-uppercase">
+    <span class=" mr-50 mb-50" style="top: 20px; position: absolute; right: 20px;">
+        <a href="{{route('lang',[trans('nav.langval')])}}" class="font-bold text-white font-28">{{trans('nav.lang')}}</a>
+    </span>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="{{url('/')}}" class="{{(Route::current()->getName() == 'homePage')? 'text-white':''}}">{{trans('nav.home')}}</a>
     <a href="{{url('about')}}" class="{{(Route::current()->getName() == 'aboutPage')? 'text-white':''}}">{{trans('nav.about')}}</a>

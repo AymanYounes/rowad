@@ -824,6 +824,10 @@ Footer
     #gallery .owl-prev,#partners .owl-prev {
         margin: 0;
     }
+
+    .sidenav a {
+        font-size: 34px !important;
+    }
 }
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
 
@@ -832,6 +836,10 @@ Footer
     }
     .img-title h5{
         font-size: 11px;
+    }
+
+    .sidenav a {
+        font-size: 34px !important;
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -1121,6 +1129,29 @@ Services Page
 }
 
 
+
+.tablinks{
+    width: 100%;
+    text-align: center;
+    background: #0090FF;
+    display: block;
+    color: #242424;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px white solid;
+}
+
+
+.tablinks:hover {
+    color: white;
+}
+
+.tab .active{
+    color: white;
+}
+
+
 @media only screen and (max-width: 768px) {
 
     .services-note{
@@ -1364,3 +1395,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
     border-radius: 30px;
     font-size: 20px;
 }
+
+
+/*
+=====================
+Products page
+=====================
+ */

@@ -47,6 +47,14 @@ Route::group(['middleware' => 'language'], function () {
         return view('services');
     })->name('servicesPage');
 
+    Route::get('/services-details', 'ServicesController@getServiceDetails')->name('servicesDetails');
+
+
+
+//    Route::get('/service-single', function () {
+//        return view('service-single');
+//    })->name('serviceSinglePage');
+
     Route::get('/get-offer', function () {
         return view('getOffer');
     })->name('getOfferPage');

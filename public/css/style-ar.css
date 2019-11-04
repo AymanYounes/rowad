@@ -116,6 +116,9 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     .goals-p {
         font-size: 28px;
     }
+    .main-info p{
+        font-size: 28px;
+    }
 }
 .img-title h5 {
     font-size: 18px;

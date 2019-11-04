@@ -107,4 +107,6 @@ maintain your pool in the easiest way',
     'rightsReserved' => 'All Rights Reserved',
 
 
+
+    'getService' => 'Get Service',
 ];
