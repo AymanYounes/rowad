@@ -33,7 +33,7 @@
                                 <img src="images/service-1.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@
                                 <img src="images/service-2.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                                 <img src="images/service-3.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                                 <img src="images/service-4.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                                 <img src="images/service-5.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                 <img src="images/service-6.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
