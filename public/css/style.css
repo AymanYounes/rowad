@@ -234,7 +234,7 @@ about section
  */
 
 #about{
-    background-image: url("../images/about-bg.jpg");
+    background-image: url("../images/about-bg.webp");
     background-size: cover;
     min-height: 800px;
     height: 800px;
