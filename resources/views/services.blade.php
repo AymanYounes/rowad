@@ -48,7 +48,6 @@
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('services-details/')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
-
                             </div>
                         </div>
 
@@ -117,7 +116,7 @@
             </div>
         </div>
         <div class="services-note text-center text-white font-tajawal font-regular mb-50">
-            <p>We offer you high quality services with the latest technologies and experts.</p>
+            <p>{{trans('homePage.servicesPageSlogan')}}</p>
         </div>
     </section>
 

@@ -109,4 +109,7 @@ maintain your pool in the easiest way',
 
 
     'getService' => 'Get Service',
+    'servicesPageSlogan' => 'We offer you high quality services with the latest technologies and experts.',
+
+
 ];
