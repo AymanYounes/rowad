@@ -499,7 +499,7 @@ products section
 }
 .product-img img{
 
-    border-radius: 50px;
+    /*border-radius: 50px;*/
     max-height: 300px;
 }
 
@@ -1348,7 +1348,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 .product-img{
-    height: 180px;
+    height: 190px;
     overflow: hidden;
 }
 

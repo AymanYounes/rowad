@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 
     <!-- Meta Tags -->
@@ -38,7 +38,7 @@
         <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">
         <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">
     @endif
-    <!-- CSS | Preloader Styles -->
+<!-- CSS | Preloader Styles -->
     <link href="css/preloader.css" rel="stylesheet" type="text/css">
     <!-- CSS | Custom Margin Padding Collection -->
     <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
@@ -64,7 +64,7 @@
         <link href="css/style-ar.css" rel="stylesheet" type="text/css">
     @endif
 
-    <!-- external javascripts -->
+<!-- external javascripts -->
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -72,7 +72,7 @@
     <script src="js/jquery-plugin-collection.js"></script>
 
     @yield('early-scripts')
-    <!-- Revolution Slider 5.x SCRIPTS -->
+<!-- Revolution Slider 5.x SCRIPTS -->
     <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
@@ -89,42 +89,43 @@
 
 </head>
 
-    <body>
-
-
-    <div id="wrapper">
-        <!-- preloader -->
-    @include('layouts.preloader')
-
-        @if (Route::current()->getName() == 'homePage')
-            @include('layouts.homeNav')
-        @else
-            @include('layouts.navbar')
-        @endif
+<body>
 
 
 
-    <!-- Start main-content -->
-        <div class="main-content">
+<div id="wrapper">
+    <!-- preloader -->
+@include('layouts.preloader')
 
-            @yield('content')
+@if (Route::current()->getName() == 'homePage')
+    @include('layouts.homeNav')
+@else
+    @include('layouts.navbar')
+@endif
 
 
-        </div>
-        <!-- end main-content -->
 
-        @include('layouts.footer')
+<!-- Start main-content -->
+    <div class="main-content">
 
+        @yield('content')
 
-        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 
     </div>
-    <!-- end wrapper -->
+    <!-- end main-content -->
+
+    @include('layouts.footer')
 
 
-    <!-- Footer Scripts -->
-    <!-- JS | Custom script for all pages -->
-    <script src="js/custom.js"></script>
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+</div>
+<!-- end wrapper -->
+
+
+<!-- Footer Scripts -->
+<!-- JS | Custom script for all pages -->
+<script src="js/custom.js"></script>
 <script>
     /* Set the width of the side navigation to 250px */
     function openNav() {
@@ -155,7 +156,7 @@
         });
     });
 </script>
-    @yield('scripts')
+@yield('scripts')
 
-    </body>
+</body>
 </html>

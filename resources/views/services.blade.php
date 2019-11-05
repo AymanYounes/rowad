@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'About Rowad')
+@section('title', 'Rowad | Services')
 @section('sidebar')
     @parent
 
