@@ -44,7 +44,7 @@
                         </div>
 
                         <div class="widget text-center">
-                            <a class="get-service-btn btn btn-default theme-second-background-color text-black text-uppercase font-medium">{{trans('homePage.getService')}}</a>
+                            <a href="{{url('/get-offer')}}" class="get-service-btn btn btn-default theme-second-background-color text-black text-uppercase font-medium">{{trans('homePage.getService')}}</a>
                         </div>
                     </div>
                 </div>
