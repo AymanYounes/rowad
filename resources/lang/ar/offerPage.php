@@ -4,7 +4,7 @@ return [
 
     'getOffer' => 'أحصل على عرض سعر',
     'getOfferSlogan1' => 'الرجاء ملئ الخانات للحصول على الخدمة',
-    'getOfferSlogan2' => 'شكراُ لإختيارك رواد',
+    'getOfferSlogan2' => 'شكراُ لإختيارك ',
     'rowad' => 'رواد',
     'firstName' => 'الإسم الأول',
     'lastName' => 'الإسم الأخير',

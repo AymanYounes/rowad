@@ -936,7 +936,7 @@
 
                 <!--                  <p class="contact-p font-tajawal font-bold text-white text-uppercase font-72"> Need Service?</p>-->
                 <p class="contact-p font-tajawal font-bold text-white text-uppercase"> {{trans('homePage.needService')}} <br>
-                    {{trans('homePage.contactUsDetails')}}
+                    {{trans('homePage.contactUsDetails')}}<br>
                     {{trans('homePage.viaForm')}}  <br>
                     {{trans('homePage.respond')}} <br>
                     {{trans('homePage.asap')}}
