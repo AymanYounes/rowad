@@ -699,10 +699,10 @@
                             <img class="img-fullwidth" src="images/products/products-5.png" alt="">
                         </div>
                         <div class="product-title">
-                            <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolCover')}}</h5>
+                            <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolPumps')}}</h5>
                         </div>
                         <div class="product-desc">
-                            <h5 class="text-center">{{trans('homePage.poolCoverDesc')}}</h5>
+                            <h5 class="text-center">{{trans('homePage.poolPumpsDesc')}}</h5>
                         </div>
                     </div>
                 </div>
@@ -796,111 +796,111 @@
 
 
     <!-- Section: News -->
-    <section data-bg-img="images/pattern/p4.png">
-        <div class="container pb-50">
-            <div class=" text-center mb-50">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h2 class="section-head text-center font-tajawal text-uppercase"><span class="section-head-black font-regular ">{{trans('homePage.our')}}</span> {{trans('homePage.news')}}</h2>
-                        <div class="section-head-underline" style="width: 300px"></div>
-                        <p class="theme-color text-center mt-20 font-tajawal products-small-header">  {{trans('homePage.newsSlogan')}}  </p>
-                    </div>
-                </div>
-            </div>
-            <div class="section-content">
-                <div class="row multi-row-clearfix">
-                    <div class="blog-posts">
-                        <div class="col-xs-12 col-sm-12 col-md-4">
-                            <article class="post style1 clearfix maxwidth500">
-                                <div class="col-md-12 p-0">
-                                    <div class="entry-header">
-                                        <div class="post-thumb">
-                                            <img src="http://placehold.it/360x200" alt="" class="img-responsive img-fullwidth">
-                                        </div>
-                                        <div class="entry-date entry-date-absolute">
-                                            25 <span>{{trans('homePage.dec')}}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 p-0">
-                                    <div class="entry-content pl-50 p-20 pt-30 pr-20">
-                                        <h5 class="entry-title pt-0"><a href="#">Different types of stroke</a></h5>
-                                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>
-                                        <div class="entry-meta pull-left flip mt-10">
+{{--    <section data-bg-img="images/pattern/p4.png">--}}
+{{--        <div class="container pb-50">--}}
+{{--            <div class=" text-center mb-50">--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-md-8 col-md-offset-2">--}}
+{{--                        <h2 class="section-head text-center font-tajawal text-uppercase"><span class="section-head-black font-regular ">{{trans('homePage.our')}}</span> {{trans('homePage.news')}}</h2>--}}
+{{--                        <div class="section-head-underline" style="width: 300px"></div>--}}
+{{--                        <p class="theme-color text-center mt-20 font-tajawal products-small-header">  {{trans('homePage.newsSlogan')}}  </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="section-content">--}}
+{{--                <div class="row multi-row-clearfix">--}}
+{{--                    <div class="blog-posts">--}}
+{{--                        <div class="col-xs-12 col-sm-12 col-md-4">--}}
+{{--                            <article class="post style1 clearfix maxwidth500">--}}
+{{--                                <div class="col-md-12 p-0">--}}
+{{--                                    <div class="entry-header">--}}
+{{--                                        <div class="post-thumb">--}}
+{{--                                            <img src="http://placehold.it/360x200" alt="" class="img-responsive img-fullwidth">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="entry-date entry-date-absolute">--}}
+{{--                                            25 <span>{{trans('homePage.dec')}}</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-12 p-0">--}}
+{{--                                    <div class="entry-content pl-50 p-20 pt-30 pr-20">--}}
+{{--                                        <h5 class="entry-title pt-0"><a href="#">Different types of stroke</a></h5>--}}
+{{--                                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>--}}
+{{--                                        <div class="entry-meta pull-left flip mt-10">--}}
 {{--                                            <ul class="list-inline">--}}
 {{--                                                <li><i class="fa fa-thumbs-o-up mr-5"></i> 13</li>--}}
 {{--                                                <li><i class="fa fa-comments-o mr-5"></i> 43</li>--}}
 {{--                                            </ul>--}}
-                                        </div>
-                                        <a class="text-theme-colored mt-10 mb-0 pull-right flip" href="#">{{trans('homePage.readMore')}} <i class="fa {{(app()->getLocale() == 'en')?'fa-angle-double-right':'fa-angle-double-left'}}"></i></a>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+{{--                                        </div>--}}
+{{--                                        <a class="text-theme-colored mt-10 mb-0 pull-right flip" href="#">{{trans('homePage.readMore')}} <i class="fa {{(app()->getLocale() == 'en')?'fa-angle-double-right':'fa-angle-double-left'}}"></i></a>--}}
+{{--                                        <div class="clearfix"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </article>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xs-12 col-sm-12 col-md-4">--}}
 
-                            <article class="post style1 clearfix maxwidth500">
-                                <div class="col-md-12 p-0">
-                                    <div class="entry-header">
-                                        <div class="post-thumb">
-                                            <img src="http://placehold.it/360x200" alt="" class="img-responsive img-fullwidth">
-                                        </div>
-                                        <div class="entry-date entry-date-absolute">
-                                            25 <span>{{trans('homePage.dec')}}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 p-0">
-                                    <div class="entry-content pl-50 p-20 pt-30 pr-20">
-                                        <h5 class="entry-title pt-0"><a href="#">Different types of stroke</a></h5>
-                                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>
-                                        <div class="entry-meta pull-left flip mt-10">
-                                            {{--                                            <ul class="list-inline">--}}
-                                            {{--                                                <li><i class="fa fa-thumbs-o-up mr-5"></i> 13</li>--}}
-                                            {{--                                                <li><i class="fa fa-comments-o mr-5"></i> 43</li>--}}
-                                            {{--                                            </ul>--}}
-                                        </div>
-                                        <a class="text-theme-colored mt-10 mb-0 pull-right flip" href="#">{{trans('homePage.readMore')}} <i class="fa {{(app()->getLocale() == 'en')?'fa-angle-double-right':'fa-angle-double-left'}}"></i></a>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-4">
+{{--                            <article class="post style1 clearfix maxwidth500">--}}
+{{--                                <div class="col-md-12 p-0">--}}
+{{--                                    <div class="entry-header">--}}
+{{--                                        <div class="post-thumb">--}}
+{{--                                            <img src="http://placehold.it/360x200" alt="" class="img-responsive img-fullwidth">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="entry-date entry-date-absolute">--}}
+{{--                                            25 <span>{{trans('homePage.dec')}}</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-12 p-0">--}}
+{{--                                    <div class="entry-content pl-50 p-20 pt-30 pr-20">--}}
+{{--                                        <h5 class="entry-title pt-0"><a href="#">Different types of stroke</a></h5>--}}
+{{--                                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>--}}
+{{--                                        <div class="entry-meta pull-left flip mt-10">--}}
+{{--                                            --}}{{--                                            <ul class="list-inline">--}}
+{{--                                            --}}{{--                                                <li><i class="fa fa-thumbs-o-up mr-5"></i> 13</li>--}}
+{{--                                            --}}{{--                                                <li><i class="fa fa-comments-o mr-5"></i> 43</li>--}}
+{{--                                            --}}{{--                                            </ul>--}}
+{{--                                        </div>--}}
+{{--                                        <a class="text-theme-colored mt-10 mb-0 pull-right flip" href="#">{{trans('homePage.readMore')}} <i class="fa {{(app()->getLocale() == 'en')?'fa-angle-double-right':'fa-angle-double-left'}}"></i></a>--}}
+{{--                                        <div class="clearfix"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </article>--}}
+{{--                        </div>--}}
+{{--                        <div class="col-xs-12 col-sm-12 col-md-4">--}}
 
-                            <article class="post style1 clearfix maxwidth500">
-                                <div class="col-md-12 p-0">
-                                    <div class="entry-header">
-                                        <div class="post-thumb">
-                                            <img src="http://placehold.it/360x200" alt="" class="img-responsive img-fullwidth">
-                                        </div>
-                                        <div class="entry-date entry-date-absolute">
-                                            25 <span>{{trans('homePage.dec')}}</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12 p-0">
-                                    <div class="entry-content pl-50 p-20 pt-30 pr-20">
-                                        <h5 class="entry-title pt-0"><a href="#">Different types of stroke</a></h5>
-                                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>
-                                        <div class="entry-meta pull-left flip mt-10">
-                                            {{--                                            <ul class="list-inline">--}}
-                                            {{--                                                <li><i class="fa fa-thumbs-o-up mr-5"></i> 13</li>--}}
-                                            {{--                                                <li><i class="fa fa-comments-o mr-5"></i> 43</li>--}}
-                                            {{--                                            </ul>--}}
-                                        </div>
-                                        <a class="text-theme-colored mt-10 mb-0 pull-right flip" href="#">{{trans('homePage.readMore')}} <i class="fa {{(app()->getLocale() == 'en')?'fa-angle-double-right':'fa-angle-double-left'}}"></i></a>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--                            <article class="post style1 clearfix maxwidth500">--}}
+{{--                                <div class="col-md-12 p-0">--}}
+{{--                                    <div class="entry-header">--}}
+{{--                                        <div class="post-thumb">--}}
+{{--                                            <img src="http://placehold.it/360x200" alt="" class="img-responsive img-fullwidth">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="entry-date entry-date-absolute">--}}
+{{--                                            25 <span>{{trans('homePage.dec')}}</span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="col-md-12 p-0">--}}
+{{--                                    <div class="entry-content pl-50 p-20 pt-30 pr-20">--}}
+{{--                                        <h5 class="entry-title pt-0"><a href="#">Different types of stroke</a></h5>--}}
+{{--                                        <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>--}}
+{{--                                        <div class="entry-meta pull-left flip mt-10">--}}
+{{--                                            --}}{{--                                            <ul class="list-inline">--}}
+{{--                                            --}}{{--                                                <li><i class="fa fa-thumbs-o-up mr-5"></i> 13</li>--}}
+{{--                                            --}}{{--                                                <li><i class="fa fa-comments-o mr-5"></i> 43</li>--}}
+{{--                                            --}}{{--                                            </ul>--}}
+{{--                                        </div>--}}
+{{--                                        <a class="text-theme-colored mt-10 mb-0 pull-right flip" href="#">{{trans('homePage.readMore')}} <i class="fa {{(app()->getLocale() == 'en')?'fa-angle-double-right':'fa-angle-double-left'}}"></i></a>--}}
+{{--                                        <div class="clearfix"></div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </article>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
     <!-- Section: Contact -->
     <section id="contact" class="divider parallax pb-150" data-bg-img="images/contact-bg.webp">

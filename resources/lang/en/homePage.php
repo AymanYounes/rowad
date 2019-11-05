@@ -60,6 +60,8 @@ touches to your pool’s decor',
     'poolCover' => 'Swimming pool cover',
     'poolCoverDesc' => 'Protect your pool from dust and
 water contaminants with the best covers',
+    'poolPumps' => 'Pool Pumps',
+    'poolPumpsDesc' => 'Get high quality and efficient pumps for your pool',
     'poolBrush' => 'Swimming pool brush',
     'poolBrushDesc' => 'High quality equipment to clean and
 maintain your pool in the easiest way',
