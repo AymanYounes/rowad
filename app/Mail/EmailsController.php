@@ -26,4 +26,24 @@ class EmailsController extends Controller
             return response()->success('Great! Successfully send in your mail');
         }
     }
+
+
+    public function contact()
+    {
+        dd('sd');
+        $data['title'] = "This is Test Mail";
+
+        Mail::send('emails.contact', $data, function($message) {
+
+            $message->to('webheadplayer@gmail.com', 'Receiver Name')
+
+                ->subject('test Mail');
+        });
+
+        if (Mail::failures()) {
+            return response()->Fail('Sorry! Please try again latter');
+        }else{
+            return response()->success('Great! Successfully send in your mail');
+        }
+    }
 }
