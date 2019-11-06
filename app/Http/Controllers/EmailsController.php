@@ -41,7 +41,7 @@ class EmailsController extends Controller
                 ->subject('Website Contact form');
         });
         if(app()->getLocale() == 'ar'){
-            $return_message = "شكراً لتواصلكم معنا، سوف نتواصل معكم قريباً";
+            $return_message = "شكراً لاتصالك بنا ، سنقوم بالتواصل معك قريباًً";
         }else{
 
             $return_message = "Thank you for contacting us, we will get back to you shortly";
@@ -51,6 +51,54 @@ class EmailsController extends Controller
 //            ->cc($moreUsers)
 //            ->bcc($evenMoreUsers)
 //            ->send();
+    }
+    //
+    public function getService(Request $request)
+    {
+//        dd($request->all());
+        $rules = [
+                'f_name' => 'required',
+                'l_name' => 'required',
+                'email' => 'required|email',
+////                'subject' => 'required',
+//                'message' => 'required',
+            ];
+            $this->validate($request, $rules);
+
+//        dd($request->all());
+        $data['title'] = "Website Get offer form";
+        $data['phone'] = $request->phone;
+        $data['f_name'] = $request->f_name;
+        $data['l_name'] = $request->l_name;
+        $data['email'] = $request->email;
+
+        $data['region'] = $request->region;
+        $data['service'] = $request->service;
+        $data['type'] = $request->type;
+        $data['length'] = $request->length;
+        $data['width'] = $request->width;
+        $data['height'] = $request->height;
+        $data['notes'] = $request->notes;
+        Mail::send('emails.getOffer', $data, function($message) {
+
+
+            $message->to('info@rowad-un.com', 'Tarek')
+                ->cc('t.elhanafy@akwanmedia.com')
+                ->cc('t.elhanafy@rowad-un.com')
+                ->cc('webheadplayer@gmail.com')
+                ->subject('Website Offer form');
+        });
+        if(app()->getLocale() == 'ar'){
+            $return_message = "شكراً لتواصلك معنا! 
+سنقوم بالتواصل معك قريباً .ًً";
+        }else{
+
+            $return_message = "Thank you for contacting us!
+We'll get in touch with you soon";
+        }
+
+        return back()->with("modal_message_success", $return_message);
+
     }
 
 }

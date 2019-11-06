@@ -21,21 +21,21 @@
                         <p  class="get-offer-p text-center font-tajawal">{{trans('offerPage.getOfferSlogan1')}}<br>
                             {{trans('offerPage.getOfferSlogan2')}} <span class="theme-color font-bold">{{trans('offerPage.rowad')}}</span> .</p>
                         <div class="get-offer-form">
-                            <form>
+                            <form method="get" action="{{url('/offer-send-email')}}" enctype="multipart/form-data">
 
                                 <div class="row">
                                     <div class="col-sm-4 col-xs-6">
                                         <div class="form-group">
 
-                                            <label for="f-name" class="font-tajawal font-medium">{{trans('offerPage.firstName')}}</label>
-                                            <input type="text" name="f-name" class="form-control get-offer-input" id="f-name" required>
+                                            <label for="f_name" class="font-tajawal font-medium">{{trans('offerPage.firstName')}}</label>
+                                            <input type="text" name="f_name" class="form-control get-offer-input" id="f_name" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-xs-6">
                                         <div class="form-group">
 
-                                            <label for="l-name" class="font-tajawal font-medium">{{trans('offerPage.lastName')}}</label>
-                                            <input type="text" name="l-name" class="form-control get-offer-input" id="l-name" required>
+                                            <label for="l_name" class="font-tajawal font-medium">{{trans('offerPage.lastName')}}</label>
+                                            <input type="text" name="l_name" class="form-control get-offer-input" id="l_name" required>
                                         </div>
                                     </div>
                                     <div class="col-sm-4 col-xs-12">
@@ -53,8 +53,19 @@
 
                                             <label for="region" class="font-tajawal font-medium">{{trans('offerPage.region')}}</label>
                                             <select name="region" id="region" class="form-control get-offer-input minimal" required>
-                                                <option> {{trans('offerPage.regionOption1')}} </option>
-                                                <option> {{trans('offerPage.regionOption2')}} </option>
+                                                <option> {{trans('offerPage.kharj')}} </option>
+                                                <option> {{trans('offerPage.zulfi')}} </option>
+                                                <option> {{trans('offerPage.Al-Qassim')}} </option>
+                                                <option> {{trans('offerPage.Riyadh')}} </option>
+                                                <option> {{trans('offerPage.Majmaah')}} </option>
+                                                <option> {{trans('offerPage.Hafar')}} </option>
+                                                <option> {{trans('offerPage.Khobar')}} </option>
+                                                <option> {{trans('offerPage.Qatif')}} </option>
+                                                <option> {{trans('offerPage.Dhahran')}} </option>
+                                                <option> {{trans('offerPage.Jubail')}} </option>
+                                                <option> {{trans('offerPage.Ahsa')}} </option>
+                                                <option> {{trans('offerPage.Abqaiq')}} </option>
+                                                <option> {{trans('offerPage.Muzahmiyya')}} </option>
                                             </select>
                                         </div>
                                     </div>
@@ -75,6 +86,8 @@
                                                 <option> {{trans('offerPage.service-4')}} </option>
                                                 <option> {{trans('offerPage.service-5')}} </option>
                                                 <option> {{trans('offerPage.service-6')}} </option>
+                                                <option> {{trans('offerPage.service-7')}} </option>
+                                                <option> {{trans('offerPage.service-8')}} </option>
                                             </select>
                                         </div>
                                     </div>
@@ -86,9 +99,8 @@
 
                                             <label for="type" class="font-tajawal font-medium">{{trans('offerPage.poolType')}}</label>
                                             <select name="type" id="type" class="form-control get-offer-input minimal" required>
-                                                <option> {{trans('offerPage.type')}} </option>
-                                                <option> {{trans('offerPage.type')}} </option>
-                                                <option> {{trans('offerPage.type')}} </option>
+                                                <option> {{trans('offerPage.type1')}} </option>
+                                                <option> {{trans('offerPage.type2')}} </option>
                                             </select>
                                         </div>
                                     </div>

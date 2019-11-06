@@ -14,14 +14,17 @@ return [
     'regionOption2' => 'Western',
     'email' => 'Email',
     'chooseService' => 'Choose Service',
-    'service-1' => 'BUILD UP SWIMMING POOLS',
+    'service-1' => 'Full Build up for swimming pools',
     'service-2' => 'SWIMMING POOLS MAINTENANCE',
     'service-3' => 'WATERFALLS & FOUNTAINS',
     'service-4' => 'POOLS AQUAPARK',
     'service-5' => 'JACUZZI BUILD UP',
     'service-6' => 'SAUNA BUILD UP',
+    'service-7' => 'Extension and installation of swimming pool equipment',
+    'service-8' => 'Restoration of swimming pools',
     'poolType' => 'Pool Type',
-    'type' => 'type-1',
+    'type1' => 'Skimmer',
+    'type2' => 'Overflow',
     'length' => 'Length',
     'width' => 'Width',
     'height' => 'Height',
@@ -30,5 +33,32 @@ return [
     'selectFile' => 'Select your file',
     'notes' => 'Notes',
     'yourMessage' => 'Your message here',
+
+
+
+
+
+
+
+    'kharj' => 'Al-kharj',
+    'zulfi' => 'Al-zulfi',
+    'Al-Qassim' => 'Al-Qassim',
+    'Riyadh' => 'Riyadh',
+    'Majmaah' => 'Al Majma\'ah',
+    'Hafar' => 'Hafar Al-Batin',
+    'Dammam' => 'Dammam',
+    'Khobar' => 'Khobar',
+    'Qatif' => 'Qatif',
+    'Dhahran' => 'Dhahran',
+    'Jubail' => 'Jubail',
+    'Ahsa' => 'Al-Ahsa',
+    'Abqaiq' => 'Abqaiq',
+    'Muzahmiyya' => 'Al-Muzahmiyya',
+
+
+
+
+
+
 
 ];
