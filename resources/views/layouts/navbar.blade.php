@@ -21,6 +21,6 @@
   </span>
 
 <!-- Home Arrow -->
-<a href="{{url('/')}}" class="back-home-btn text-white">
-    <span class="fa fa-long-arrow-left" style=""> </span>
-</a>
+{{--<a href="{{url('/')}}" class="back-home-btn text-white">--}}
+{{--    <span class="fa fa-long-arrow-left" style=""> </span>--}}
+{{--</a>--}}
