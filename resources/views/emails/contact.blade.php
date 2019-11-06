@@ -1,1 +1,1 @@
-{!! nl2br($msg_body) !!}
+sba7 el full
