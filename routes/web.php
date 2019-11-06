@@ -61,10 +61,10 @@ Route::group(['middleware' => 'language'], function () {
 
 
 //    Route::match(['get', 'post'], 'laravel-send-contact-email', 'EmailsController@contact');
-    Route::get('contact-send-email', 'EmailsController@contact');
+//    Route::get('contact-send-email', 'EmailsController@contact');
 
 
-
+    Route::get('/contact-send-email', 'EmailsController@contact')->name('ContactEmail');
 
 //========================================================================================================
 //========================================= Dashboard ====================================================

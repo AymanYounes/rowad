@@ -39,22 +39,21 @@
             <div class="col-sm-6  col-xs-12 order-md-first order-last contact-us-form">
 
                 <div class="form-wrapper pb-50">
-                    <form>
+                    <form method="get" action="{{url('/contact-send-email')}}">
                         <div class="form-group">
                             <label for="name" class="font-bold">{{trans('homePage.fullName')}}</label>
-                            <input type="text" class="form-input form-control" id="name">
+                            <input type="text" name="name" class="form-input form-control" id="name" required>
                         </div>
                         <div class="form-group">
                             <label for="email" class="font-bold">{{trans('homePage.emailAddress')}}</label>
-                            <input type="email" class="form-input form-control" id="email">
+                            <input type="email" name="email" class="form-input form-control" id="email" required>
                         </div>
                         <div class="form-group">
                             <label for="phone" class="font-bold">{{trans('homePage.phoneNumber')}}</label>
-                            <input type="number" class="form-input form-control" id="phone">
+                            <input type="number" name="phone" class="form-input form-control" id="phone" required>
                         </div>
                         <div class="form-group">
-                            <!--                              <label for="phone">Phone Number</label>-->
-                            <textarea type="number" class="form-input form-control" id="message" placeholder="{{trans('homePage.messageHere')}}"></textarea>
+                            <textarea name="message" class="form-input form-control" id="message" placeholder="{{trans('homePage.messageHere')}}" required></textarea>
                         </div>
 
                         <div class="form-group text-center">
