@@ -1,35 +1,29 @@
 <?php
 
-namespace App\Mail;
+namespace App\Http\Controllers;
 
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Mail\Mailable;
-use Illuminate\Queue\SerializesModels;
-
-class contact extends Mailable
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Response;
+use DB,Config;
+use Illuminate\Support\Facades\Mail;
+class EmailsController extends Controller
 {
-    use Queueable, SerializesModels;
-
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public function sendEmail()
     {
-        //
-    }
+        $data['title'] = "This is Test Mail";
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
-    public function build()
-    {
-        return $this->from('noreply@akwanmedia.com')
-            ->view('emails.contact')
-            ->text('emails.contact_text');
+        Mail::send('emails.contact', $data, function($message) {
+
+            $message->to('webheadplayer@gmail.com', 'Receiver Name')
+
+                ->subject('test Mail');
+        });
+
+        if (Mail::failures()) {
+            return response()->Fail('Sorry! Please try again latter');
+        }else{
+            return response()->success('Great! Successfully send in your mail');
+        }
     }
 }
