@@ -942,7 +942,7 @@
                     {{trans('homePage.asap')}}
                 </p>
                 <p class="contact-note font-regular theme-second-color font-tajawal">
-                    {{trans('homePage.checkDetails')}}<br> {{trans('homePage.ourTeamContact')}}<br> {{trans('homePage.correctly')}}.
+                    {{trans('homePage.checkDetails')}}<br> {{trans('homePage.ourTeamContact')}}<br> {{trans('homePage.correctly')}}
                 </p>
 
             </div>
