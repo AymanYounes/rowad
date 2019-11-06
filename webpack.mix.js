@@ -49,5 +49,5 @@ mix.styles([
     'public/css/revolution-slider/css/navigation.css',
     'public/css/colors/theme-skin-blue.css',
     'public/css/style.css',
-    'public/css/style-ar.css',
+    'public/css/style-rtl.css',
 ], 'public/css/build-ar.css');
