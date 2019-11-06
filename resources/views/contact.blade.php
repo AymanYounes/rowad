@@ -85,5 +85,6 @@
         </div>
     </section>
 
+    @include('modals')
 
 @endsection
