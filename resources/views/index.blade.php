@@ -119,9 +119,9 @@
                         </li>
 
                         <!-- SLIDE 2 -->
-                        <li data-index="rs-2" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/5.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                        <li data-index="rs-2" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/5.webp"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slider/5.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
+                            <img src="images/slider/5.webp"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -222,9 +222,9 @@
                         </li>
 
                         <!-- SLIDE 3 -->
-                        <li data-index="rs-3" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/3.jpg"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
+                        <li data-index="rs-3" data-transition="random" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="images/slider/3.webp"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="images/slider/3.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
+                            <img src="images/slider/3.webp"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="6" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -640,7 +640,7 @@
                 <div class="item">
                     <div class="product-item">
                         <div class="product-img">
-                            <img class="img-fullwidth" src="images/products/products-1.png" alt="">
+                            <img class="img-fullwidth" src="images/products/products-1.webp" alt="">
                         </div>
                         <div class="product-title">
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolAccessories')}}</h5>
@@ -654,7 +654,7 @@
                 <div class="item">
                     <div class="product-item">
                         <div class="product-img">
-                            <img class="img-fullwidth" src="images/products/products-2.png" alt="">
+                            <img class="img-fullwidth" src="images/products/products-2.webp" alt="">
                         </div>
                         <div class="product-title">
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolFilters')}}</h5>
@@ -668,7 +668,7 @@
                 <div class="item">
                     <div class="product-item">
                         <div class="product-img">
-                            <img class="img-fullwidth" src="images/products/products-3.png" alt="">
+                            <img class="img-fullwidth" src="images/products/products-3.webp" alt="">
                         </div>
                         <div class="product-title">
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolHeater')}}</h5>
@@ -682,7 +682,7 @@
                 <div class="item">
                     <div class="product-item">
                         <div class="product-img">
-                            <img class="img-fullwidth" src="images/products/products-4.png" alt="">
+                            <img class="img-fullwidth" src="images/products/products-4.webp" alt="">
                         </div>
                         <div class="product-title">
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolSpotlight')}}</h5>
@@ -696,7 +696,7 @@
                 <div class="item">
                     <div class="product-item">
                         <div class="product-img">
-                            <img class="img-fullwidth" src="images/products/products-5.png" alt="">
+                            <img class="img-fullwidth" src="images/products/products-5.webp" alt="">
                         </div>
                         <div class="product-title">
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolPumps')}}</h5>
@@ -710,7 +710,7 @@
                 <div class="item">
                     <div class="product-item">
                         <div class="product-img">
-                            <img class="img-fullwidth" src="images/products/products-6.png" alt="">
+                            <img class="img-fullwidth" src="images/products/products-6.webp" alt="">
                         </div>
                         <div class="product-title">
                             <h5 class="text-uppercase text-center theme-color">{{trans('homePage.poolBrush')}}</h5>
@@ -1019,41 +1019,41 @@
 
                     <div class="owl-carousel-partners" data-nav="true">
                         <div class="item">
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/1.png">
-                                <img width="240" src="images/partners/1.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/1.webp">
+                                <img width="240" src="images/partners/1.webp" alt="">
                             </a>
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/2.png">
-                                <img width="240" src="images/partners/2.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/2.webp">
+                                <img width="240" src="images/partners/2.webp" alt="">
                             </a>
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/3.png">
-                                <img width="240" src="images/partners/3.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/3.webp">
+                                <img width="240" src="images/partners/3.webp" alt="">
                             </a>
 
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/4.png">
-                                <img width="240" src="images/partners/4.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/4.webp">
+                                <img width="240" src="images/partners/4.webp" alt="">
                             </a>
                         </div>
                         <div class="item">
                             <span class="helper"></span>
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/5.png">
-                                <img width="240" src="images/partners/5.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/5.webp">
+                                <img width="240" src="images/partners/5.webp" alt="">
                             </a>
                         </div>
                         <div class="item">
                             <span class="helper"></span>
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/6.png">
-                                <img width="240" src="images/partners/6.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/6.webp">
+                                <img width="240" src="images/partners/6.webp" alt="">
                             </a>
                         </div>
                         <div class="item">
-                            <a data-rel="prettyPhoto[partners1]" href="images/partners/7.png">
-                                <img width="240" src="images/partners/7.png" alt="">
+                            <a data-rel="prettyPhoto[partners1]" href="images/partners/7.webp">
+                                <img width="240" src="images/partners/7.webp" alt="">
                             </a>
                         </div>
                     </div>
