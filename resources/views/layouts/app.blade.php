@@ -23,6 +23,7 @@
 
 
     <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <!-- Stylesheet -->
 {{--    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
@@ -34,17 +35,17 @@
     <!-- CSS | menuzord megamenu skins -->
 {{--    <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>--}}
     <!-- CSS | Main style file -->
-    <link href="css/style-main.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/style-main.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
         <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">
         <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">
     @endif
 <!-- CSS | Preloader Styles -->
-    <link href="css/preloader.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/preloader.css" rel="stylesheet" type="text/css">--}}
     <!-- CSS | Custom Margin Padding Collection -->
-    <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">--}}
     <!-- CSS | Responsive media queries -->
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/responsive.css" rel="stylesheet" type="text/css">--}}
     <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
     <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
@@ -58,9 +59,9 @@
 {{--    <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>--}}
 
     <!-- CSS | Theme Color -->
-    <link href="css/colors/theme-skin-blue.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/colors/theme-skin-blue.css" rel="stylesheet" type="text/css">--}}
 
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/style.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
         <link href="css/style-ar.css" rel="stylesheet" type="text/css">
     @endif
