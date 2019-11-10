@@ -23,22 +23,12 @@ mix.styles([
     'public/css/revolution-slider/css/settings.css',
     'public/css/revolution-slider/css/layers.css',
     'public/css/revolution-slider/css/navigation.css',
-], 'public/css/plugins.css');
-
-
-mix.styles([
     'public/css/style-main.css',
     'public/css/preloader.css',
     'public/css/custom-bootstrap-margin-padding.css',
     'public/css/responsive.css',
     'public/css/colors/theme-skin-blue.css',
     'public/css/style.css',
-], 'public/css/styles.css');
-
-
-mix.styles([
-    'public/css/plugins.css',
-    'public/css/styles.css',
 ], 'public/css/build.css');
 
 mix.styles([
@@ -47,3 +37,14 @@ mix.styles([
     'public/css/style-main-rtl-extra.css',
     'public/css/style-ar.css',
 ], 'public/css/build-ar.css');
+
+
+
+mix.js(
+    'public/js/jquery-2.2.0.min.js',
+    'public/js/jquery-ui.min.js',
+    'public/js/bootstrap.min.js',
+    'public/js/jquery-plugin-collection.js',
+    'public/js/revolution-slider/js/jquery.themepunch.tools.min.js',
+    'public/js/revolution-slider/js/jquery.themepunch.revolution.min.js',
+    'public/js/build.js');
