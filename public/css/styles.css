@@ -13290,7 +13290,7 @@ about section
 #about{
     background-image: url("../images/about-bg.webp");
     background-size: cover;
-    min-height: 800px;
+    /*min-height: 800px;*/
     height: 800px;
 }
 #about .row{
@@ -13680,12 +13680,12 @@ Contact section
 
 
 .contact-head{
-    font-size: 74px;
+    font-size: 60px;
     line-height: 60px;
 }
 .contact-p{
-    font-size: 55px;
-    line-height: 80px;
+    font-size: 40px;
+    /*line-height: 80px;*/
     margin-top: 20px;
 }
 
@@ -13715,9 +13715,9 @@ Contact section
 
 .form-input{
     border: solid #0076D1 2px;
-    height: 75px;
+    height: 70px;
     border-radius: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #contact .form-group label{
@@ -13727,7 +13727,7 @@ Contact section
     margin-top: -18px;
     background: white;
     padding: 0 10px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 #message{
@@ -13895,6 +13895,8 @@ Footer
     .sidenav a {
         font-size: 34px !important;
     }
+
+
 }
 @media only screen and (max-width: 1200px) {
     .service-item{
@@ -13925,13 +13927,21 @@ Footer
         font-size: 26px;
     }
     .contact-p {
-        font-size: 49px;
-        line-height: 70px;
+        font-size: 34px;
+        /*line-height: 70px;*/
         margin-top: 20px;
     }
     .contact-note {
         font-size: 27px;
         line-height: 45px;
+    }
+
+    #about{
+        height: 100vh;
+    }
+
+    .about-p {
+        line-height: 60px;
     }
 }
 
@@ -14001,8 +14011,8 @@ Footer
         margin: 0 auto !important;
     }
     .contact-p {
-        font-size: 28px;
-        line-height: 48px;
+        font-size: 22px;
+        /*line-height: 48px;*/
         text-align: center;
     }
     .contact-note {
