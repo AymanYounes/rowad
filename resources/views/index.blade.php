@@ -979,7 +979,7 @@
                 <h2 class="section-head text-left font-tajawal text-uppercase text-white contact-head">
                     <span class="font-regular ">{{trans('homePage.contact')}}</span> {{trans('homePage.us')}}
                 </h2>
-                <div class="section-head-underline m-0" style="width: 400px"></div>
+                <div class="section-head-underline m-0" style="width: 300px"></div>
 
                 <!--                  <p class="contact-p font-tajawal font-bold text-white text-uppercase font-72"> Need Service?</p>-->
                 <p class="contact-p font-tajawal font-bold text-white text-uppercase"> {{trans('homePage.needService')}} <br>
