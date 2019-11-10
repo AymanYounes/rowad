@@ -80,8 +80,8 @@
 
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/build.js"></script>
-{{--    <script src="js/jquery-ui.min.js"></script>--}}
-{{--    <script src="js/bootstrap.min.js"></script>--}}
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- JS | jquery plugin collection for this theme -->
 {{--    <script src="js/jquery-plugin-collection.js"></script>--}}
 
