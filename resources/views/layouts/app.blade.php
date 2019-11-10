@@ -77,7 +77,7 @@
 {{--        <link href="css/build.css" rel="stylesheet" type="text/css">--}}
 {{--    @endif--}}
 <!-- external javascripts -->
-    <script src="js/build.min.js"></script>
+    <script src="js/build.js"></script>
 {{--    <script src="js/jquery-2.2.0.min.js"></script>--}}
 {{--    <script src="js/jquery-ui.min.js"></script>--}}
 {{--    <script src="js/bootstrap.min.js"></script>--}}
