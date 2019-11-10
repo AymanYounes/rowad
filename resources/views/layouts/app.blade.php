@@ -84,11 +84,11 @@
     <!-- JS | jquery plugin collection for this theme -->
     <script src="js/jquery-plugin-collection.js"></script>
 
-    <script src="js/build.js"></script>
+{{--    <script src="js/build.js"></script>--}}
     @yield('early-scripts')
 <!-- Revolution Slider 5.x SCRIPTS -->
-{{--    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>--}}
-{{--    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>--}}
+    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
