@@ -24,6 +24,9 @@
 
 {{--    <link href="css/plugins.css" rel="stylesheet" type="text/css">--}}
     <link href="css/build.css" rel="stylesheet" type="text/css">
+    @if(Config::get('app.locale') == 'ar')
+        <link href="css/build-ar.css" rel="stylesheet" type="text/css">
+    @endif
     <!-- Stylesheet -->
 {{--    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
