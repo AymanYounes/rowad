@@ -22,16 +22,17 @@
     <meta name="theme-color" content="#ffffff">
 
 
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
     <!-- Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
         <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
     @endif
-    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
-    <link href="css/css-plugin-collections.css" rel="stylesheet"/>
+{{--    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">--}}
+{{--    <link href="css/animate.css" rel="stylesheet" type="text/css">--}}
+{{--    <link href="css/css-plugin-collections.css" rel="stylesheet"/>--}}
     <!-- CSS | menuzord megamenu skins -->
-    <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>
+{{--    <link id="menuzord-menu-skins" href="css/menuzord-skins/menuzord-boxed.css" rel="stylesheet"/>--}}
     <!-- CSS | Main style file -->
     <link href="css/style-main.css" rel="stylesheet" type="text/css">
     @if(Config::get('app.locale') == 'ar')
@@ -52,9 +53,9 @@
 
 
     <!-- Revolution Slider 5.x CSS settings -->
-    <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
-    <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>
-    <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>
+{{--    <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>--}}
+{{--    <link  href="js/revolution-slider/css/layers.css" rel="stylesheet" type="text/css"/>--}}
+{{--    <link  href="js/revolution-slider/css/navigation.css" rel="stylesheet" type="text/css"/>--}}
 
     <!-- CSS | Theme Color -->
     <link href="css/colors/theme-skin-blue.css" rel="stylesheet" type="text/css">
