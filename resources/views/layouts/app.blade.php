@@ -30,7 +30,7 @@
     <!-- Stylesheet -->
 {{--    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
-        <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">
+{{--        <link href="css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css">--}}
     @endif
 {{--    <link href="css/jquery-ui.min.css" rel="stylesheet" type="text/css">--}}
 {{--    <link href="css/animate.css" rel="stylesheet" type="text/css">--}}
@@ -40,8 +40,8 @@
     <!-- CSS | Main style file -->
 {{--    <link href="css/style-main.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
-        <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">
-        <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">
+{{--        <link href="css/style-main-rtl.css" rel="stylesheet" type="text/css">--}}
+{{--        <link href="css/style-main-rtl-extra.css" rel="stylesheet" type="text/css">--}}
     @endif
 <!-- CSS | Preloader Styles -->
 {{--    <link href="css/preloader.css" rel="stylesheet" type="text/css">--}}
@@ -66,7 +66,7 @@
 
 {{--    <link href="css/style.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
-        <link href="css/style-ar.css" rel="stylesheet" type="text/css">
+{{--        <link href="css/style-ar.css" rel="stylesheet" type="text/css">--}}
     @endif
 
 
