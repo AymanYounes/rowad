@@ -35,6 +35,12 @@ mix.styles([
     'public/css/style.css',
 ], 'public/css/styles.css');
 
+
+mix.styles([
+    'public/css/plugins.css',
+    'public/css/styles.css',
+], 'public/css/build.css');
+
 mix.styles([
     'public/css/bootstrap.min.css',
     'public/css/bootstrap-rtl.min.css',

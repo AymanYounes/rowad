@@ -22,8 +22,8 @@
     <meta name="theme-color" content="#ffffff">
 
 
-    <link href="css/plugins.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+{{--    <link href="css/plugins.css" rel="stylesheet" type="text/css">--}}
+    <link href="css/build.css" rel="stylesheet" type="text/css">
     <!-- Stylesheet -->
 {{--    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
