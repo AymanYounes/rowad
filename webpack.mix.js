@@ -57,4 +57,4 @@ mix.combine([
 
 
 
-mix.js('public/js/build.js','public/js');
+// mix.js('public/js/build.js','public/js');
