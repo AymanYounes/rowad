@@ -39,9 +39,3 @@ mix.styles([
 ], 'public/css/build-ar.css');
 
 
-
-mix.js([
-    // 'public/js/jquery-plugin-collection.js',
-    'public/js/revolution-slider/js/jquery.themepunch.tools.min.js',
-    'public/js/revolution-slider/js/jquery.themepunch.revolution.min.js',
-    ], 'public/js/build.js');
