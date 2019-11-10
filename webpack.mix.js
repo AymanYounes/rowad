@@ -23,12 +23,20 @@ mix.styles([
     'public/css/revolution-slider/css/settings.css',
     'public/css/revolution-slider/css/layers.css',
     'public/css/revolution-slider/css/navigation.css',
+], 'public/css/plugins.css');
+
+mix.styles([
     'public/css/style-main.css',
     'public/css/preloader.css',
     'public/css/custom-bootstrap-margin-padding.css',
     'public/css/responsive.css',
     'public/css/colors/theme-skin-blue.css',
     'public/css/style.css',
+], 'public/css/styles.css');
+
+mix.styles([
+    'public/css/plugins.css',
+    'public/css/styles.css',
 ], 'public/css/build.css');
 
 mix.styles([
