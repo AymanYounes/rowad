@@ -692,19 +692,19 @@ Contact section
 
 #message::-webkit-input-placeholder {
     color: #0076D1;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
 }
 
 #message:-moz-placeholder { /* Firefox 18- */
     color: #0076D1;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
 }
 
 #message::-moz-placeholder {  /* Firefox 19+ */
     color: #0076D1;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
 }
 
@@ -716,7 +716,7 @@ Contact section
 
 #message::placeholder{
     color: #0076D1;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
 }
 

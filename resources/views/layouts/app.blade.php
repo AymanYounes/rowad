@@ -52,8 +52,8 @@
     <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
     <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
-    <!--  <link href="https://fonts.googleapis.com/css?family=Tajawal:700&display=swap" rel="stylesheet">-->
 
 
     <!-- Revolution Slider 5.x CSS settings -->
@@ -86,9 +86,6 @@
 
 {{--    <script src="js/build.js"></script>--}}
     @yield('early-scripts')
-<!-- Revolution Slider 5.x SCRIPTS -->
-{{--    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>--}}
-{{--    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>--}}
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

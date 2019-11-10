@@ -902,8 +902,15 @@
 {{--        </div>--}}
 {{--    </section>--}}
 
+    <style>
+        .contact-sec{
+            min-height: 180px;
+            padding: 20px 10px;
+        }
+    </style>
+
     <!-- Section: Contact -->
-    <section id="contact" class="divider parallax pb-150" data-bg-img="images/contact-bg.webp">
+    <section id="contact" class="divider parallax pb-80" data-bg-img="images/contact-bg.webp">
 
         <div class="main-info text-center" dir="ltr">
             <div class="col-sm-4 contact-sec sec_1">
@@ -1072,9 +1079,15 @@
 @section('scripts')
 
 
+    <!-- Revolution Slider 5.x SCRIPTS -->
+{{--    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>--}}
+{{--    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>--}}
+
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
       (Load Extensions only on Local File Systems !
        The following part can be removed on Server for On Demand Loading) -->
+
+
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.carousel.min.js"></script>
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js"></script>
