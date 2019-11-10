@@ -66,7 +66,7 @@
 
 {{--    <link href="css/style.css" rel="stylesheet" type="text/css">--}}
     @if(Config::get('app.locale') == 'ar')
-{{--        <link href="css/style-ar.css" rel="stylesheet" type="text/css">--}}
+        <link href="css/style-ar.css" rel="stylesheet" type="text/css">
     @endif
 
 

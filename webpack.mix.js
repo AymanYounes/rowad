@@ -43,7 +43,7 @@ mix.styles([
     'public/css/bootstrap-rtl.min.css',
     'public/css/style-main-rtl.css',
     'public/css/style-main-rtl-extra.css',
-    'public/css/style-ar.css',
+    // 'public/css/style-ar.css',
 ], 'public/css/build-ar.css');
 
 mix.combine([
