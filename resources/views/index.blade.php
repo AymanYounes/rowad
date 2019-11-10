@@ -756,7 +756,7 @@
                 <div class="row features-style1 mt-20">
 
 
-                    <div class="owl-carousel-3col" data-nav="true">
+                    <div class="owl-carousel-4col" data-nav="true">
                         <div class="item">
                             <a data-rel="prettyPhoto[gallery1]" href="images/gallery/1.webp">
                                 <img width="240" src="images/gallery/thumb/1.webp" alt="gallery">
@@ -916,7 +916,7 @@
             <div class="col-sm-4 contact-sec sec_2">
                 <i class="fa fa-envelope"></i>
                 <p class="font-tajawal pt-10">
-                    <a href="mail:info@rowad-eltamayoz.com" class="text-white">info@rowad-eltamayoz.com</a></p>
+                    <a href="mail:info@rowad-un.com" class="text-white">info@rowad-un.com</a></p>
             </div>
             <div class="col-sm-4 contact-sec sec_3">
                 <i class="fa fa-map-marker"></i>
@@ -932,7 +932,7 @@
                 <h2 class="section-head text-left font-tajawal text-uppercase text-white contact-head">
                     <span class="font-regular ">{{trans('homePage.contact')}}</span> {{trans('homePage.us')}}
                 </h2>
-                <div class="section-head-underline m-0" style="width: 400px"></div>
+                <div class="section-head-underline m-0" style="width: 300px"></div>
 
                 <!--                  <p class="contact-p font-tajawal font-bold text-white text-uppercase font-72"> Need Service?</p>-->
                 <p class="contact-p font-tajawal font-bold text-white text-uppercase"> {{trans('homePage.needService')}} <br>
