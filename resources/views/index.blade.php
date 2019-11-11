@@ -448,7 +448,7 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.buildUp')}} </h5>
                                 </div>
-                                <img alt="A lazy image" class="lazy" src="images/service-1.webp" data-src="images/service-1.webp">
+                                <img alt="{{trans('homePage.buildUp')}}" class="lazy" src="images/service-1-lazy.png" data-src="images/service-1.webp">
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
@@ -462,7 +462,7 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.poolMaintenance')}} </h5>
                                 </div>
-                                <img src="images/service-2.webp" alt="">
+                                <img alt="{{trans('homePage.poolMaintenance')}}" class="lazy" src="images/service-1-lazy.png" data-src="images/service-2.webp">
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
@@ -477,7 +477,7 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.waterfall')}} </h5>
                                 </div>
-                                <img src="images/service-3.webp" alt="">
+                                <img alt="{{trans('homePage.waterfall')}}" class="lazy" src="images/service-1-lazy.png" data-src="images/service-3.webp">
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
@@ -492,7 +492,8 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.aquaPark')}} </h5>
                                 </div>
-                                <img src="images/service-4.webp" alt="">
+                                <img alt="{{trans('homePage.aquaPark')}}" class="lazy" src="images/service-1-lazy.png" data-src="images/service-4.webp">
+
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
@@ -507,7 +508,7 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.jacuzzi')}} </h5>
                                 </div>
-                                <img src="images/service-5.webp" alt="">
+                                <img alt="{{trans('homePage.jacuzzi')}}" class="lazy" src="images/service-1-lazy.png" data-src="images/service-5.webp">
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
@@ -522,7 +523,7 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.sauna')}} </h5>
                                 </div>
-                                <img src="images/service-6.webp" alt="">
+                                <img alt="{{trans('homePage.sauna')}}" class="lazy" src="images/service-1-lazy.png" data-src="images/service-6.webp">
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
