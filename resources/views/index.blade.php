@@ -370,10 +370,10 @@
     <section id="about">
         <div class="row">
 
-            <div class="col-lg-7 col-md-6 col-sm-5  p-0 pb-50 float-rtl-left">
+            <div class="col-lg-7 col-md-6 col-sm-5  p-0 float-rtl-left">
 
             </div>
-            <div class="col-lg-5 col-md-6 col-sm-7 p-0 about-content-wrapper">
+            <div class="col-lg-5 col-md-6 col-sm-7 p-0 pb-50 about-content-wrapper">
                 <div class="top-right-corner top-right-corner-vertical"></div>
                 <div class="top-right-corner top-right-corner-horizontal"></div>
 
