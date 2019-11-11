@@ -351,14 +351,14 @@
                 <div class="col-md-6  p-0">
                     <div class="elem first offer-1-wrapper">
                         <a href="{{url('/get-offer')}}">
-                            <img src="images/offer-1.jpg" class="width-100 offer-img offer-img-1" alt="">
+                            <img alt="" class="lazy width-100 offer-img offer-img-1" src="images/service-1-lazy.png" data-src="images/offer-1.jpg">
                         </a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0">
                     <div class="elem first offer-2-wrapper">
                         <a href="{{url('/get-offer')}}">
-                            <img src="images/offer-2.jpg" class="width-100 offer-img offer-img-2" alt="">
+                            <img alt="" class="lazy width-100 offer-img offer-img-2" src="images/service-1-lazy.png" data-src="images/offer-2.jpg">
                         </a>
                     </div>
                 </div>
