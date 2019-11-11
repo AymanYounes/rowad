@@ -457,7 +457,7 @@
     <section id="about">
         <div class="row">
 
-            <div class="col-lg-7 col-md-6 col-sm-5  p-0 float-rtl-left">
+            <div class="col-lg-7 col-md-6 col-sm-5  p-0 pb-50 float-rtl-left">
 
             </div>
             <div class="col-lg-5 col-md-6 col-sm-7 p-0 about-content-wrapper">
@@ -1096,7 +1096,7 @@
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
+{{--    <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>--}}
 
     <script>
         $('.owl-carousel').owlCarousel({

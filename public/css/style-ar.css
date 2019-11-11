@@ -52,7 +52,7 @@ body ,.menuzord, .menuzord *,h5, h6, p {
 }
 .about-p {
     padding-top: 5px;
-    line-height: 75px;
+    /*line-height: 75px;*/
 }
 
 

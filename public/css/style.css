@@ -239,7 +239,7 @@ about section
     background-image: url("../images/about-bg.webp");
     background-size: cover;
     /*min-height: 800px;*/
-    height: 800px;
+    /*height: 800px;*/
 }
 #about .row{
     height: 100%;
@@ -887,7 +887,7 @@ Footer
     }
 
     #about{
-        height: 100vh;
+        /*height: 100vh;*/
     }
 
     .about-p {
@@ -919,6 +919,10 @@ Footer
         font-size: 24px;
         line-height: 29px;
     }
+    .goals-img-wrapper img {
+        width: 65px;
+    }
+
 }
 
 @media only screen and (max-width: 768px){
