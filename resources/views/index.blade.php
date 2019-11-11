@@ -448,7 +448,8 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.buildUp')}} </h5>
                                 </div>
-                                <img src="images/service-1.webp" alt="">
+                                <img alt="A lazy image" src="images/goals-icon.png" data-src="images/service-1.webp">
+{{--                                <img src="images/service-1.webp" alt="">--}}
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
@@ -1097,7 +1098,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.3.0/dist/lazyload.min.js"></script>
 
     <!-- Revolution Slider 5.x SCRIPTS -->
 {{--    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>--}}
@@ -1119,6 +1120,12 @@
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
 
     <script>
+
+        var lazyLoadInstance = new LazyLoad({
+            elements_selector: ".lazy"
+        });
+
+
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:20,
