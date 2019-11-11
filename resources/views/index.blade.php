@@ -735,9 +735,6 @@
     </section>
 
 
-
-
-
     <!-- Section: Gallery -->
     <section id="gallery" class="text-center">
 
