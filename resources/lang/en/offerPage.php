@@ -40,6 +40,7 @@ return [
 
 
 
+    'comma' => ',',
     'kharj' => 'Al-kharj',
     'zulfi' => 'Al-zulfi',
     'Al-Qassim' => 'Al-Qassim',

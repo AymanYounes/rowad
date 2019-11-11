@@ -125,7 +125,15 @@
                             </div>
                             <div class="col-sm-6 col-xs-6 col-md-7 contact-sec">
                                 <i class="fa fa-map-marker font-32"></i>
-                                <p class="font-tajawal font-16">Saudi Arabia, Riyadh</br>Eastern and Western Region</p>
+                                <p class="font-tajawal font-16">
+
+                                    {{trans('offerPage.Riyadh')}}{{trans('offerPage.comma')}}
+                                    {{trans('offerPage.Dammam')}}{{trans('offerPage.comma')}}
+                                    {{trans('offerPage.Jubail')}}{{trans('offerPage.comma')}}<br>
+                                    {{trans('offerPage.Ahsa')}}{{trans('offerPage.comma')}}
+                                    {{trans('offerPage.Majmaah')}}{{trans('offerPage.comma')}}
+                                    {{trans('offerPage.Muzahmiyya')}}
+                                </p>
                             </div>
                         </div>
                     </div>

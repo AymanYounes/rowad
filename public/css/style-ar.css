@@ -52,7 +52,7 @@ body ,.menuzord, .menuzord *,h5, h6, p {
 }
 .about-p {
     padding-top: 5px;
-    /*line-height: 75px;*/
+    line-height: 50px;
 }
 
 
@@ -68,7 +68,9 @@ body ,.menuzord, .menuzord *,h5, h6, p {
 /*     margin-top: 0 !important;*/
 /*    top: 50px;*/
 /*}*/
-
+.sec_3{
+    direction: rtl;
+}
 
 #products .section-content, #gallery .section-content, #partners .section-content{
     direction: ltr !important;

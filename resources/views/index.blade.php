@@ -837,7 +837,14 @@
             </div>
             <div class="col-sm-4 contact-sec sec_3">
                 <i class="fa fa-map-marker"></i>
-                <p class="font-tajawal">{{trans('homePage.contactAddress1')}} <br>{{trans('homePage.contactAddress2')}}</p>
+                <p class="font-tajawal">
+                    {{trans('offerPage.Riyadh')}}{{trans('offerPage.comma')}}
+                    {{trans('offerPage.Dammam')}}{{trans('offerPage.comma')}}
+                    {{trans('offerPage.Jubail')}}{{trans('offerPage.comma')}}<br>
+                    {{trans('offerPage.Ahsa')}}{{trans('offerPage.comma')}}
+                    {{trans('offerPage.Majmaah')}}{{trans('offerPage.comma')}}
+                    {{trans('offerPage.Muzahmiyya')}}
+                </p>
             </div>
         </div>
 
@@ -1089,7 +1096,7 @@
 
 
 
-    
+
 
 
     <!-- Revolution Slider 5.x SCRIPTS -->
