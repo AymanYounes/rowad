@@ -48,8 +48,8 @@ mix.combine([
     'public/js/jquery-ui.min.js',
     'public/js/bootstrap.min.js',
     'public/js/jquery-plugin-collection.js',
-    // 'public/js/revolution-slider/js/jquery.themepunch.tools.min.js',
-    // 'public/js/revolution-slider/js/jquery.themepunch.revolution.min.js',
+    'public/js/revolution-slider/js/jquery.themepunch.tools.min.js',
+    'public/js/revolution-slider/js/jquery.themepunch.revolution.min.js',
 ], 'public/js/build.js');
 
 
