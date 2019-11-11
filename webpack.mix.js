@@ -20,9 +20,6 @@ mix.styles([
     'public/css/animate.css',
     'public/css/css-plugin-collections.css',
     'public/css/menuzord-skins/menuzord-boxed.css',
-    'public/css/revolution-slider/css/settings.css',
-    'public/css/revolution-slider/css/layers.css',
-    'public/css/revolution-slider/css/navigation.css',
 ], 'public/css/plugins.css');
 
 mix.styles([
@@ -51,8 +48,8 @@ mix.combine([
     'public/js/jquery-ui.min.js',
     'public/js/bootstrap.min.js',
     'public/js/jquery-plugin-collection.js',
-    // 'public/js/revolution-slider/js/jquery.themepunch.tools.min.js',
-    // 'public/js/revolution-slider/js/jquery.themepunch.revolution.min.js',
+    'public/js/revolution-slider/js/jquery.themepunch.tools.min.js',
+    'public/js/revolution-slider/js/jquery.themepunch.revolution.min.js',
 ], 'public/js/build.js');
 
 

@@ -1,7 +1,11 @@
 @extends('layouts.app')
 @section('title', 'Home Page')
 
-
+@section('scripts')
+    <link  href="{{asset('js/revolution-slider/css/settings.css')}}" rel="stylesheet" type="text/css"/>
+    <link  href="{{asset('js/revolution-slider/css/layers.css')}}" rel="stylesheet" type="text/css"/>
+    <link  href="{{asset('js/revolution-slider/css/navigation.css')}}" rel="stylesheet" type="text/css"/>
+@endsection
 @section('content')
 
 

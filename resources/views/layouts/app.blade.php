@@ -77,16 +77,15 @@
 {{--        <link href="css/build.css" rel="stylesheet" type="text/css">--}}
 {{--    @endif--}}
 <!-- external javascripts -->
-{{--    <script src="js/build.js"></script>--}}
-    <script src="js/jquery-2.2.0.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- JS | jquery plugin collection for this theme -->
-    <script src="js/jquery-plugin-collection.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/build.js"></script>
+{{--    <script src="js/jquery-2.2.0.min.js"></script>--}}
+{{--    <script src="js/jquery-ui.min.js"></script>--}}
+{{--    <script src="js/bootstrap.min.js"></script>--}}
+{{--    <!-- JS | jquery plugin collection for this theme -->--}}
+{{--    <script src="js/jquery-plugin-collection.js"></script>--}}
+{{--    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>--}}
+{{--    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>--}}
 
-{{--    <script src="js/build.js"></script>--}}
     @yield('early-scripts')
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
