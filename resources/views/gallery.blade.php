@@ -24,7 +24,7 @@
                 <div class="row features-style1 mt-20">
 
 
-                    <div class="owl-carousel-3col" data-nav="true">
+                    <div class="owl-carousel-4col" data-nav="true">
                         <div class="item">
                             <a data-rel="prettyPhoto[gallery1]" href="images/gallery/1.webp">
                                 <img width="240" src="images/gallery/thumb/1.webp" alt="gallery">

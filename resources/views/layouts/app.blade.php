@@ -142,9 +142,10 @@
     function openNav() {
         var $window = $(window);
         var windowsize = $window.width();
-        if (windowsize > 768) {
-
+        if (windowsize > 1024) {
             document.getElementById("mySidenav").style.width = "400px";
+        }else if (windowsize > 768 && windowsize <= 1024 ) {
+            document.getElementById("mySidenav").style.width = "350px";
         }else{
             document.getElementById("mySidenav").style.width = "300px";
         }
