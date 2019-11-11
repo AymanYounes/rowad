@@ -55,6 +55,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Tajawal&display=swap" rel="stylesheet">
 
+    @yield('styles')
 
     <!-- Revolution Slider 5.x CSS settings -->
 {{--    <link  href="js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>--}}
@@ -83,8 +84,8 @@
 {{--    <script src="js/bootstrap.min.js"></script>--}}
 {{--    <!-- JS | jquery plugin collection for this theme -->--}}
 {{--    <script src="js/jquery-plugin-collection.js"></script>--}}
-    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+{{--    <script src="js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>--}}
+{{--    <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>--}}
 
     @yield('early-scripts')
 
@@ -97,7 +98,6 @@
 
 
 
-    @yield('styles')
 
 </head>
 
