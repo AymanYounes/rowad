@@ -448,8 +448,7 @@
                                 <div class="img-title  text-uppercase">
                                     <h5> {{trans('homePage.buildUp')}} </h5>
                                 </div>
-                                <img alt="A lazy image" src="images/goals-icon.png" data-src="images/service-1.webp">
-{{--                                <img src="images/service-1.webp" alt="">--}}
+                                <img alt="A lazy image" class="lazy" src="images/service-1.webp" data-src="images/service-1.webp">
                             </div>
                             <div class="btn-wrapper">
                                 <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
