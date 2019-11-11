@@ -836,6 +836,10 @@ Footer
     .service-img-wrapper{
         max-height: 302px;
     }
+
+    .goals-img-wrapper img {
+        width: 120px;
+    }
 }
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
 
