@@ -7,6 +7,33 @@
         .back-home-btn,.hamburger-menu span{
             color: black !important;
         }
+        .footer-wrapper{
+            position: absolute;
+            background: #2D2D2D;
+            width: 100%;
+            padding-top: 120px;
+        }
+        .offer_side_img{
+            position: fixed;
+            width: 500px;
+        }
+        #footer{
+            padding: 0;
+        }
+
+        @media only screen and (max-width: 1400px){
+            .offer_side_img{
+                width: 400px;
+            }
+        }
+        @media only screen and (max-width: 1200px){
+            .offer_side_img{
+                position: fixed;
+                width: 350px;
+            }
+        }
+
+
     </style>
 
 
@@ -154,7 +181,7 @@
             </div>
 
             <div class="col-md-4 col-md-offset-8 hidden-xs hidden-sm " style="">
-                <img src="images/offer-side-img.png" alt="" style="position: absolute; bottom: 0">
+                <img src="images/offer-side-img.png" alt="" class="offer_side_img" style=" bottom: 0">
 
             </div>
 

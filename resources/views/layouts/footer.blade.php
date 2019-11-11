@@ -1,6 +1,7 @@
 
 <!-- Footer -->
 <footer id="footer" class="footer pb-0 ">
+    <div class="footer-wrapper">
     <div class="container pb-20">
         <div class="row multi-row-clearfix">
             <div class="col-sm-6 col-xs-6 col-md-2">
@@ -156,5 +157,6 @@
             </div>
 
         </div>
+    </div>
     </div>
 </footer>
