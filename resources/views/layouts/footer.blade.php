@@ -138,7 +138,12 @@
             <div class="row text-left">
 
                 <div class="col-md-12">
-                    <p class="text-white m-0 font-tajawal text-uppercase font-medium font-16"> &copy; 2019 {{trans('homePage.designedBy')}} <a href="https://akwanmedia.com" class="theme-second-color"> Akwan Media</a>. {{trans('homePage.rightsReserved')}}</p>
+                    <p class="text-white m-0 font-tajawal text-uppercase font-medium font-16">
+                        &copy; 2019 {{trans('homePage.rightsReserved')}}.
+                        <span class="footer-designedBy">
+                            {{trans('homePage.designedBy')}} <a href="https://akwanmedia.com" class="theme-second-color"> Akwan Media</a>.
+                        </span>
+                    </p>
                 </div>
             </div>
 

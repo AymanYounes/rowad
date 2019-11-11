@@ -790,7 +790,9 @@ Footer
     font-weight: normal;
 }
 
-
+.footer-designedBy{
+    float: right;
+}
 
 
 
@@ -828,7 +830,7 @@ Footer
     }
 
     .sidenav a {
-        font-size: 26px !important;
+        font-size: 24px !important;
     }
 }
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
@@ -838,10 +840,6 @@ Footer
     }
     .img-title h5{
         font-size: 11px;
-    }
-
-    .sidenav a {
-        font-size: 34px !important;
     }
 
 
@@ -1076,7 +1074,7 @@ Inner Pages
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 45px;
+    font-size: 28px;
     font-weight: bold;
     color: #242424;
     display: block;
@@ -1105,7 +1103,7 @@ Inner Pages
         padding-top: 75px;
     }
     .sidenav a {
-        font-size: 30px;
+        font-size: 24px;
     }
     .sidenav .closebtn {
         left: 10px;

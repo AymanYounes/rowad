@@ -144,9 +144,8 @@
         var windowsize = $window.width();
         if (windowsize > 768) {
 
-            document.getElementById("mySidenav").style.width = "500px";
+            document.getElementById("mySidenav").style.width = "400px";
         }else{
-
             document.getElementById("mySidenav").style.width = "300px";
         }
     }

@@ -538,7 +538,7 @@
                                 <img src="images/service-1.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
                             </div>
                         </div>
 
@@ -552,7 +552,7 @@
                                 <img src="images/service-2.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -567,7 +567,7 @@
                                 <img src="images/service-3.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -582,7 +582,7 @@
                                 <img src="images/service-4.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -597,7 +597,7 @@
                                 <img src="images/service-5.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -612,7 +612,7 @@
                                 <img src="images/service-6.webp" alt="">
                             </div>
                             <div class="btn-wrapper">
-                                <a href="" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
+                                <a href="{{url('/services-details')}}" class="btn btn-default btn-second-theme-colored text-uppercase discover-btn"> {{trans('homePage.discover')}}</a>
 
                             </div>
                         </div>
@@ -917,7 +917,7 @@
                 <i class="fa fa-phone"></i>
                 <p class="font-tajawal">
                     <a href="tel:+9660559197115" class="text-white">+9660559197115</a></br>
-                    <a href="+966920007397" class="text-white">+966920007397</a>
+                    <a href="tel:+966920007397" class="text-white">+966920007397</a>
                 </p>
             </div>
             <div class="col-sm-4 contact-sec sec_2">
