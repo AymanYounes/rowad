@@ -67,6 +67,18 @@ Route::group(['middleware' => 'language'], function () {
     Route::get('/contact-send-email', 'EmailsController@contact')->name('contactEmail');
     Route::get('/offer-send-email', 'EmailsController@getService')->name('offerEmail');
 
+
+
+
+    Route::get('/sitemap',function(){
+        return response()->view('sitemap.sitemap')
+            ->header('Content-Type', 'xml');
+    });
+
+    Route::get('/sitemap.xml',function(){
+        return response()->view('sitemap.sitemap')
+            ->header('Content-Type', 'xml');
+    });
 //========================================================================================================
 //========================================= Dashboard ====================================================
 //========================================================================================================
