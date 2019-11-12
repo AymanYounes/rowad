@@ -914,14 +914,14 @@ Footer
 
 
     .get-offer-form label {
-        font-size: 18px;
+        font-size: 18px !important;
     }
     textarea.form-control{
         height: 200px;
     }
 
     #filename{
-        height: 40px;
+        height: 40px !important;
     }
 
 
@@ -929,6 +929,10 @@ Footer
         font-size: 20px;
     }
 
+
+    .get-offer-input {
+        height: 34px;
+    }
 
 }
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
