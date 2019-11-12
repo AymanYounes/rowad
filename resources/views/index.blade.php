@@ -871,7 +871,7 @@
 
             <div class="col-sm-6  col-xs-12 order-md-first order-last contact-us-form">
 
-                <div class="form-wrapper pb-50">
+                <div class="form-wrapper pb-lg-20 pb-xl-50">
                     <form method="get" action="{{url('/contact-send-email')}}">
                         <div class="form-group">
                             <label for="name" class="font-bold">{{trans('homePage.fullName')}}</label>

@@ -135,6 +135,12 @@ body ,.menuzord, .menuzord *,h5, h6, p {
         margin-top: -40px !important;
         padding: 5px 15px;
     }
+
+    #about .section-head-underline {
+        width: 180px;
+    }
+
+
 }
 .img-title h5 {
     font-size: 18px;

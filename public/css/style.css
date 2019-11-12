@@ -843,7 +843,7 @@ Footer
 
     .tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .slider-btn{
         padding: 12px 25px !important;
-        font-size: 22px !important;
+        font-size: 18px !important;
         line-height: 28px;
     }
 
@@ -901,7 +901,8 @@ Footer
         height: 160px;
     }
     .form-wrapper {
-        width: 66%;
+        width: 60%;
+        padding-top: 55px;
     }
 
     .contact-p {
