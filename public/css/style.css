@@ -916,9 +916,12 @@ Footer
     .get-offer-form label {
         font-size: 18px !important;
     }
-    textarea.form-control{
+    .get-offer-form textarea.form-control {
         height: 170px;
     }
+    /*textarea.form-control{*/
+    /*    height: 200px;*/
+    /*}*/
 
     #filename{
         height: 40px !important;
@@ -930,7 +933,7 @@ Footer
     }
 
 
-    .get-offer-input {
+    .get-offer-form .get-offer-input {
         height: 34px;
     }
 
