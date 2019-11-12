@@ -45,7 +45,7 @@ return [
     'zulfi' => 'Al-zulfi',
     'Al-Qassim' => 'Al-Qassim',
     'Riyadh' => 'Riyadh',
-    'Majmaah' => 'Al Majma\'ah',
+    'Majmaah' => 'Al-Majma\'ah',
     'Hafar' => 'Hafar Al-Batin',
     'Dammam' => 'Dammam',
     'Khobar' => 'Khobar',
