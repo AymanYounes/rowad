@@ -132,7 +132,7 @@ body ,.menuzord, .menuzord *,h5, h6, p {
         width: 240px;
     }
     label[for="photo"] {
-        margin-top: -40px;
+        margin-top: -40px !important;
         padding: 5px 15px;
     }
 }

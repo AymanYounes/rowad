@@ -917,7 +917,7 @@ Footer
         font-size: 18px !important;
     }
     textarea.form-control{
-        height: 200px;
+        height: 170px;
     }
 
     #filename{
@@ -944,7 +944,7 @@ Footer
         font-size: 11px;
     }
 
-    .get-offer-input {
+    .get-offer-form {
         width: 90%;
         margin-right: 5%;
     }
