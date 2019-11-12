@@ -53,7 +53,7 @@
                                  data-y="['middle']"
                                  data-voffset="['-80']"
                                  data-fontsize="['58']"
-                                 data-lineheight="['50']"
+                                 data-lineheight="['60']"
                                  data-width="none"
                                  data-height="none"
                                  data-whitespace="nowrap"
@@ -79,7 +79,6 @@
                                  data-voffset="['15']"
                                  data-fontsize="['58']"
                                  data-lineheight="['60']"
-
                                  data-width="none"
                                  data-height="none"
                                  data-whitespace="nowrap"
@@ -98,12 +97,10 @@
                             <!-- LAYER NR. 4 -->
                             <div class="tp-caption tp-resizeme"
                                  id="rs-1-layer-4"
-
                                  data-x="['center']"
                                  data-hoffset="['0']"
                                  data-y="['middle']"
                                  data-voffset="['120']"
-
                                  data-width="none"
                                  data-height="none"
                                  data-whitespace="nowrap"
@@ -156,7 +153,7 @@
                                  data-y="['middle']"
                                  data-voffset="['-80']"
                                  data-fontsize="['58']"
-                                 data-lineheight="['50']"
+                                 data-lineheight="['60']"
                                  data-width="none"
                                  data-height="none"
                                  data-whitespace="nowrap"
@@ -259,7 +256,7 @@
                                  data-y="['middle']"
                                  data-voffset="['-80']"
                                  data-fontsize="['58']"
-                                 data-lineheight="['50']"
+                                 data-lineheight="['60']"
                                  data-width="none"
                                  data-height="none"
                                  data-whitespace="nowrap"
@@ -543,7 +540,7 @@
 
     <!-- Section: Products -->
     <section id="products" class="pt-20">
-        <div class="product-head-wrapper mb-100">
+        <div class="product-head-wrapper mb-xl-100 mb-md-30">
             <h2 class="section-head text-center font-tajawal"><span class="section-head-black font-regular">{{trans('homePage.our')}}</span> {{trans('homePage.products')}}</h2>
             <div class="section-head-underline"></div>
             <p class="theme-color text-center mt-20 font-tajawal products-small-header">  {{trans('homePage.productsSlogan')}} <span class="theme-second-color"> {{trans('homePage.rowad')}}</span> </p>
