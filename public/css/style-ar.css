@@ -130,6 +130,15 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     font-size: 18px;
 }
 
+#goals .sub-section-underline{
+    width: 110px;
+}
+
+.about-content .sub-section-underline{
+    width: 240px;
+}
+
+
 /*
 --------------------------
 Offer Page

@@ -847,11 +847,11 @@ Footer
         line-height: 28px;
     }
 
-    #about .sub-section-underline{
-        width: 250px;
+    .about-content .sub-section-underline{
+        width: 320px;
     }
     #goals .sub-section-underline{
-        width: 110px;
+        width: 160px;
     }
 
     .goals-p {
@@ -863,10 +863,43 @@ Footer
     }
 
 
+    .section-head{
+        font-size: 50px;
+    }
+
     .products-small-header {
         font-size: 28px;
     }
 
+    .main-info p {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+
+    #contact .form-group label {
+        margin-left: 14px;
+        margin-top: -12px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    .form-input {
+        height: 60px;
+        margin-bottom: 19px;
+    }
+
+    .form-submit {
+        font-size: 24px;
+    }
+
+    #message {
+        height: 160px;
+    }
 
 
 }
