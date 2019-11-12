@@ -900,9 +900,19 @@ Footer
     #message {
         height: 160px;
     }
+    .form-wrapper {
+        width: 66%;
+    }
 
+    .contact-p {
+        font-size: 30px;
+    }
 
-}
+    .contact-note {
+        font-size: 26px;
+    }
+
+    }
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
 
     .img-title{

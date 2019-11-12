@@ -661,7 +661,7 @@
                 </div>
             </div>
             <div class="section-content">
-                <div class="row features-style1 mt-20">
+                <div class="row features-style1 mt-20 p-lg-50 p-xl-0">
 
 
                     <div class="owl-carousel-4col" data-nav="true">
