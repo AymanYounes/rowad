@@ -17,7 +17,9 @@
     <meta name="description" content="Description" />
     <meta name="keywords" content="" />
     <meta name="author" content="Rowad United" />
+    <meta name="google-site-verification" content="BRscrJD91NC3cFvEiulctskiE4N42npKcgNpANzzH8A" />
 
+    
     <!-- Page Title -->
     <title>Rowad | @yield('title')</title>
 
