@@ -912,7 +912,25 @@ Footer
         font-size: 26px;
     }
 
+
+    .get-offer-form label {
+        font-size: 18px;
     }
+    textarea.form-control{
+        height: 200px;
+    }
+
+    #filename{
+        height: 40px;
+    }
+
+
+    #offer .form-submit {
+        font-size: 20px;
+    }
+
+
+}
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
 
     .img-title{
@@ -922,6 +940,10 @@ Footer
         font-size: 11px;
     }
 
+    .get-offer-input {
+        width: 90%;
+        margin-right: 5%;
+    }
 
 }
 @media only screen and (max-width: 1200px) {

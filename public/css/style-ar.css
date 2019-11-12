@@ -123,18 +123,23 @@ body ,.menuzord, .menuzord *,h5, h6, p {
     .main-info p{
         font-size: 28px;
     }
+
+    #goals .sub-section-underline{
+        width: 110px;
+    }
+
+    .about-content .sub-section-underline{
+        width: 240px;
+    }
+    label[for="photo"] {
+        margin-top: -40px;
+        padding: 5px 15px;
+    }
 }
 .img-title h5 {
     font-size: 18px;
 }
 
-#goals .sub-section-underline{
-    width: 110px;
-}
-
-.about-content .sub-section-underline{
-    width: 240px;
-}
 
 
 /*
