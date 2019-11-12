@@ -130,7 +130,7 @@
 
                                     {{trans('offerPage.Riyadh')}}{{trans('offerPage.comma')}}
                                     {{trans('offerPage.Dammam')}}{{trans('offerPage.comma')}}
-                                    {{trans('offerPage.Jubail')}}{{trans('offerPage.comma')}}<br>
+                                    {{trans('offerPage.Jubail')}}{{trans('offerPage.comma')}}
                                     {{trans('offerPage.Ahsa')}}{{trans('offerPage.comma')}}
                                     {{trans('offerPage.Majmaah')}}{{trans('offerPage.comma')}}
                                     {{trans('offerPage.Muzahmiyya')}}
