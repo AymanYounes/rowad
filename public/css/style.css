@@ -94,7 +94,9 @@ Nav Bar
 
 
 
-
+.background-theme-colored, .icon-theme-colored{
+    background-color: #0090ff;
+}
 
 
 /*
