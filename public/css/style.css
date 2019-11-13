@@ -33,7 +33,9 @@ a{ cursor: pointer; }
     color: #0090ff;
 }
 
-
+.social-icons.icon-white a {
+    background-color: #FFF;
+}
 .theme-background-color{
     background-color: #0090ff;
 }
