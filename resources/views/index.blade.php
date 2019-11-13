@@ -811,10 +811,7 @@
 {{--    </section>--}}
 
     <style>
-        .contact-sec{
-            min-height: 180px;
-            padding: 20px 10px;
-        }
+
     </style>
 
     <!-- Section: Contact -->
