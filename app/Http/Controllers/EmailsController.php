@@ -35,9 +35,6 @@ class EmailsController extends Controller
         Mail::send('emails.contact', $data, function($message) {
 
             $message->to('info@rowad-un.com', 'Tarek')
-                ->cc('t.elhanafy@akwanmedia.com')
-                ->cc('t.elhanafy@rowad-un.com')
-                ->cc('webheadplayer@gmail.com')
                 ->subject('Website Contact form');
         });
         if(app()->getLocale() == 'ar'){
@@ -83,9 +80,6 @@ class EmailsController extends Controller
 
 
             $message->to('info@rowad-un.com', 'Tarek')
-                ->cc('t.elhanafy@akwanmedia.com')
-                ->cc('t.elhanafy@rowad-un.com')
-                ->cc('webheadplayer@gmail.com')
                 ->subject('Website Offer form');
         });
         if(app()->getLocale() == 'ar'){
