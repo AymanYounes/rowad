@@ -8,6 +8,26 @@ body ,.menuzord, .menuzord *,h5, h6, p {
 }
 
 
+#header{
+    direction: ltr;
+}
+#header .col-sm-6{
+    float: left !important;
+}
+#header .pull-right.flip{
+    float: right !important;
+}
+
+
+@media (min-width: 992px){
+    #header .col-md-6 {
+        float: left !important;
+    }
+
+}
+
+
+
 
 .menuzord-menu > li{
     float: right !important;
