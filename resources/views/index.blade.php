@@ -1159,10 +1159,10 @@
                     items:1
                 },
                 600:{
-                    items:3
+                    items:4
                 },
                 1000:{
-                    items:5
+                    items:6
                 }
             }
         })

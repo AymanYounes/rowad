@@ -871,8 +871,15 @@ Footer
         font-size: 28px;
     }
 
+
+    .contact-sec{
+        min-height: 140px;
+        padding: 1px 10px;
+    }
+
+
     .main-info p {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 36px;
     }
 
