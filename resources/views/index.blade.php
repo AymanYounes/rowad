@@ -810,9 +810,6 @@
 {{--        </div>--}}
 {{--    </section>--}}
 
-    <style>
-
-    </style>
 
     <!-- Section: Contact -->
     <section id="contact" class="divider parallax pb-80" data-bg-img="images/contact-bg.webp">

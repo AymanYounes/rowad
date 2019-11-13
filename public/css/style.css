@@ -645,7 +645,7 @@ Contact section
 
 
 
-.contact-sec{
+#contact .contact-sec{
     min-height: 180px;
     padding: 20px 10px;
 }
@@ -875,7 +875,7 @@ Footer
     }
 
 
-    .contact-sec{
+    #contact .contact-sec{
         min-height: 140px;
         padding: 1px 10px;
     }
