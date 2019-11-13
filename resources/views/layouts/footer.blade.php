@@ -136,6 +136,17 @@
                                     {{trans('offerPage.Muzahmiyya')}}
                                 </p>
                             </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12 contact-sec">
+                                    <div class="footer-social-media hidden-sm hidden-xs" style="position:relative;">
+                                        <a href="http://www.facebook.com/RowadUn/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                                        <a href="https://twitter.com/RowadUn" target="_blank"><i class="fa fa-twitter"></i></a>
+                                        <a href="https://www.instagram.com/rowadun/" target="_blank"><i class="fa fa-instagram"></i></a>
+                                        <a href="https://www.linkedin.com/company/rowadun/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://wa.me/9660559197115" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

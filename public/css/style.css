@@ -3,7 +3,9 @@ html,body {
     padding: 0;
     margin:0;
     /*overflow-x: hidden;*/
+
 }
+a{ cursor: pointer; }
 #preloader{
     direction: ltr;
 }
@@ -122,7 +124,21 @@ Home Page
     border-radius: 50px;
 }
 
+.slider-social-media{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    z-index: 100;
+}
+.slider-social-media a,.footer-social-media a{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.footer-social-media {
 
+    direction: ltr;
+}
 /*
 -------------------
 offer section
