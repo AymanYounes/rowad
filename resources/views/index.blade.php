@@ -334,8 +334,10 @@
 {{--                    <a href="https://www.linkedin.com/company/rowadun/" target="_blank"><i class="fa fa-linkedin"></i></a>--}}
 {{--                    <a href="https://wa.me/9660559197115" target="_blank"><i class="fa fa-whatsapp"></i></a>--}}
 {{--                </div>--}}
+<div class="slider-social-media">
 
-                <ul class="slider-social-media hidden-sm hidden-xs social-icons icon-dark icon-circled icon-theme-colored icon-sm sm-text-center mt-sm-15">
+
+                <ul class="hidden-sm hidden-xs social-icons icon-dark icon-circled icon-theme-colored icon-sm sm-text-center mt-sm-15">
                     <li>
                         <a href="http://www.facebook.com/RowadUn/" target="_blank"><i class="fa fa-facebook-f"></i></a>
                     </li>
@@ -352,7 +354,7 @@
                         <a href="https://wa.me/9660559197115" target="_blank"><i class="fa fa-whatsapp"></i></a>
                     </li>
                 </ul>
-
+</div>
             </div>
             <!-- end .rev_slider_wrapper -->
 
