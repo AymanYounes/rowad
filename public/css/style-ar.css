@@ -28,7 +28,9 @@ body ,.menuzord, .menuzord *,h5, h6, p {
 
 
 
-
+.menuzord-menu{
+    direction: rtl;
+}
 .menuzord-menu > li{
     float: right !important;
 }

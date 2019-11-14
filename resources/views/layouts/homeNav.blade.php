@@ -1,59 +1,7 @@
 
 <!-- Header -->
 <header id="header" class="header">
-    <style>
-        /*.header-nav{*/
-        /*    !*top: 45px;*!*/
-        /*}*/
-        /*@media only screen and (min-width: 992px){*/
-        /*    .animated-active{*/
-        /*        top: 41px !important;*/
-        /*    }*/
-        /*    .menuzord-menu > li > a{*/
-        /*        font-size: 12px;*/
-        /*    }*/
-        /*}*/
-    </style>
-{{--    <div class="header-top bg-theme-colored sm-text-center hidden-sm">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row">--}}
-{{--                <div class="col-md-6">--}}
-{{--                    <div class="widget no-border m-0">--}}
-{{--                        <ul class="social-icons icon-dark icon-circled icon-theme-colored icon-sm sm-text-center mt-sm-15">--}}
-{{--                            <li>--}}
-{{--                                <a href="http://www.facebook.com/RowadUn/" target="_blank"><i class="fa fa-facebook-f"></i></a>--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                <a href="https://twitter.com/RowadUn" target="_blank"><i class="fa fa-twitter"></i></a>--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                <a href="https://www.instagram.com/rowadun/" target="_blank"><i class="fa fa-instagram"></i></a>--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                <a href="https://www.linkedin.com/company/rowadun/" target="_blank"><i class="fa fa-linkedin"></i></a>--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                <a href="https://wa.me/9660559197115" target="_blank"><i class="fa fa-whatsapp"></i></a>--}}
-{{--                            </li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-md-6">--}}
-{{--                    <div class="widget no-border m-0">--}}
-{{--                        <ul class="list-inline pull-right flip sm-pull-none sm-text-center mt-5">--}}
-{{--                            <li class=" font-tajawal text-uppercase">--}}
-{{--                                <a href="{{url('/catalog')}}" class="text-white font-bold">{{trans('nav.catalog')}}</a>--}}
-{{--                            </li>--}}
-{{--                            <li class=" font-tajawal text-uppercase"><span class="text-white"> |</span>--}}
-{{--                                <a href="{{route('lang',[trans('nav.langval')])}}" class="font-bold text-white">{{trans('nav.lang')}}</a>--}}
-{{--                            </li>--}}
 
-{{--                        </ul>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
     <div class="header-nav navbar-fixed-top header-dark navbar-white navbar-sticky-animated animated-active">
         <div class="header-nav-wrapper">
             <div class="container">
@@ -71,6 +19,23 @@
                         <li class=" font-tajawal text-uppercase"><a href="{{url('/contact')}}" class="font-bold">{{trans('nav.contact')}}</a></li>
                         <li class=" font-tajawal text-uppercase"><span class="text-white"> |</span>
                             <a href="{{route('lang',[trans('nav.langval')])}}" class="font-bold">{{trans('nav.lang')}}</a>
+                        </li>
+                        <li class="hidden-lg hidden-md social-icons icon-white icon-circled icon-sm sm-text-center mt-sm-15">
+                            <div>
+                                <a href="http://www.facebook.com/RowadUn/" class="theme-color" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://twitter.com/RowadUn" class="theme-color" target="_blank"><i class="fa fa-twitter"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://www.instagram.com/rowadun/" class="theme-color" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/company/rowadun/" class="theme-color" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                            <div>
+                                <a href="https://wa.me/9660559197115" class="theme-color" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                            </div>
                         </li>
                     </ul>
                 </nav>
