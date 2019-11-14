@@ -64,7 +64,7 @@ class EmailsController extends Controller
             $this->validate($request, $rules);
 
 
-
+$new_name = '';
         if($request->hasFile('photo')){
 //dd('has photo');
 
@@ -83,7 +83,7 @@ class EmailsController extends Controller
         $data['f_name'] = $request->f_name;
         $data['l_name'] = $request->l_name;
         $data['email'] = $request->email;
-        $data['photo'] = ($new_name)?'images/offer-form/'.$new_name:'';
+        $data['photo'] = ($new_name != '')?'images/offer-form/'.$new_name:'';
 
         $data['region'] = $request->region;
         $data['service'] = $request->service;
@@ -94,8 +94,7 @@ class EmailsController extends Controller
         $data['notes'] = $request->notes;
         Mail::send('emails.getOffer', $data, function($message) {
 
-
-            $message->to('info@rowad-un.com', 'Tarek')
+            $message->to('info@rowad-un.com', 'Rowad-un')
                 ->cc('webheadplayer@gmail.com')
                 ->subject('Website Offer form');
         });
