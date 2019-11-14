@@ -13,29 +13,6 @@
     <section id="home" class="divider">
         <div class="container-fluid p-0">
 
-
-            <div class="container">
-                <div class="slider-social-media">
-
-
-                    <ul class="hidden-sm hidden-xs social-icons icon-white icon-circled icon-sm sm-text-center mt-sm-15">
-                        <li>
-                            <a href="http://www.facebook.com/RowadUn/" class="theme-color" target="_blank"><i class="fa fa-facebook-f"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/RowadUn" class="theme-color" target="_blank"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/rowadun/" class="theme-color" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/rowadun/" class="theme-color" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://wa.me/9660559197115" class="theme-color" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                        </li>
-                    </ul>
-                </div>
             <!-- Slider Revolution Start -->
             <div dir="ltr" class="rev_slider_wrapper">
                 <div class="rev_slider" data-version="5.0">
