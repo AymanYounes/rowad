@@ -48,8 +48,8 @@
                         <p  class="get-offer-p text-center font-tajawal">{{trans('offerPage.getOfferSlogan1')}}<br>
                             {{trans('offerPage.getOfferSlogan2')}} <span class="theme-color font-bold">{{trans('offerPage.rowad')}}</span> .</p>
                         <div class="get-offer-form">
-                            <form method="get" action="{{url('/offer-send-email')}}" enctype="multipart/form-data">
-
+                            <form method="post" action="{{url('/offer-send-email')}}" enctype="multipart/form-data">
+@csrf
                                 <div class="row">
                                     <div class="col-sm-4 col-xs-6">
                                         <div class="form-group">

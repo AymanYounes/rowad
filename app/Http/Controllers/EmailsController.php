@@ -63,12 +63,27 @@ class EmailsController extends Controller
             ];
             $this->validate($request, $rules);
 
+
+
+        if($request->hasFile('photo')){
+//dd('has photo');
+
+            $this->validate($request,[
+                'photo' => 'required|image|mimes:jpeg,png,jpg,gif,webp|max:2048'
+            ]);
+
+            $thumbnail = $request->file('photo');
+            $new_name = time().'.'.$thumbnail->getClientOriginalExtension();
+            $thumbnail->move(public_path('images/offer-form/'),$new_name);
+
+        }
 //        dd($request->all());
         $data['title'] = "Website Get offer form";
         $data['phone'] = $request->phone;
         $data['f_name'] = $request->f_name;
         $data['l_name'] = $request->l_name;
         $data['email'] = $request->email;
+        $data['photo'] = ($new_name)?'images/offer-form/'.$new_name:'';
 
         $data['region'] = $request->region;
         $data['service'] = $request->service;

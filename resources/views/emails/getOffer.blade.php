@@ -7,6 +7,7 @@
 <hr>
 <h3> service details</h3>
 <p>--------------------</p>
+<p>Photo : {{ 'https://rowad-un.com/'.$photo }}</p>
 <p>Region : {{ $region }}</p>
 <p>Service : {{ $service }}</p>
 <p>type : {{ $type }}</p>
