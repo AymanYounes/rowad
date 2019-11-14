@@ -38,9 +38,9 @@
 
 
     <!-- Section: offer -->
-    <section id="offer" class="divider parallax" data-bg-img="images/offer-page-bg.webp">
+    <section id="offer" class="divider parallax" data-bg-img="images/offer-page-bg.webp" dir="ltr">
 
-        <div class="mt-50 mt-xs-0">
+        <div class="mt-50 mt-xs-0" dir="rtl">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-12 col-xs-12">
