@@ -17516,7 +17516,9 @@ html,body {
     padding: 0;
     margin:0;
     /*overflow-x: hidden;*/
+
 }
+a{ cursor: pointer; }
 #preloader{
     direction: ltr;
 }
@@ -17544,7 +17546,10 @@ html,body {
     color: #0090ff;
 }
 
-
+.social-icons.icon-white a {
+    background-color: #FFF;
+    color: #0090ff;
+}
 .theme-background-color{
     background-color: #0090ff;
 }
@@ -17605,7 +17610,9 @@ Nav Bar
 
 
 
-
+.bg-theme-colored, .icon-theme-colored.icon-dark a{
+    background-color: #0090ff !important;
+}
 
 
 /*
@@ -17635,7 +17642,21 @@ Home Page
     border-radius: 50px;
 }
 
+.slider-social-media{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    z-index: 100;
+}
+.slider-social-media a,.footer-social-media a{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.footer-social-media {
 
+    direction: ltr;
+}
 /*
 -------------------
 offer section
@@ -18158,7 +18179,10 @@ Contact section
 
 
 
-
+#contact .contact-sec{
+    min-height: 180px;
+    padding: 20px 10px;
+}
 
 
 
@@ -18349,6 +18373,115 @@ Footer
     .service-img-wrapper{
         max-height: 302px;
     }
+
+    .goals-img-wrapper img {
+        width: 100px;
+    }
+
+    .tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .slider-btn{
+        padding: 12px 25px !important;
+        font-size: 18px !important;
+        line-height: 28px;
+    }
+
+    .about-content .sub-section-underline{
+        width: 320px;
+    }
+    #goals .sub-section-underline{
+        width: 160px;
+    }
+
+    .goals-p {
+        font-size: 22px;
+        line-height: 29px;
+    }
+    .goals-h {
+        font-size: 38px
+    }
+
+
+    .section-head{
+        font-size: 50px;
+    }
+
+    .products-small-header {
+        font-size: 28px;
+    }
+
+
+    #contact .contact-sec{
+        min-height: 140px;
+        padding: 1px 10px;
+    }
+
+
+    .main-info p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+
+    #contact .form-group label {
+        margin-left: 14px;
+        margin-top: -12px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    .form-input {
+        height: 60px;
+        margin-bottom: 19px;
+    }
+
+    .form-submit {
+        font-size: 24px;
+    }
+
+    #message {
+        height: 160px;
+    }
+    .form-wrapper {
+        width: 60%;
+        padding-top: 55px;
+    }
+
+    .contact-p {
+        font-size: 30px;
+    }
+
+    .contact-note {
+        font-size: 26px;
+    }
+
+
+    .get-offer-form label {
+        font-size: 18px !important;
+    }
+    .get-offer-form textarea.form-control {
+        height: 170px;
+    }
+    /*textarea.form-control{*/
+    /*    height: 200px;*/
+    /*}*/
+
+    #filename{
+        height: 40px !important;
+    }
+
+
+    #offer .form-submit {
+        font-size: 20px;
+    }
+
+
+    .get-offer-form .get-offer-input {
+        height: 34px;
+    }
+
 }
 @media only screen and (max-width: 1400px ) and (min-width:1200px) {
 
@@ -18359,15 +18492,15 @@ Footer
         font-size: 11px;
     }
 
+    .get-offer-form {
+        width: 90%;
+        margin-right: 5%;
+    }
 
 }
 @media only screen and (max-width: 1200px) {
     .service-item{
         margin: 15px 0;
-    }
-    .goals-p{
-        font-size: 24px;
-        line-height: 36px;
     }
     .goals-img-wrapper img{
         width: 100px;
@@ -18376,13 +18509,13 @@ Footer
     .tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .tp-caption{
         font-size: 53px !important;
     }
-    .tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .slider-btn{
+    /*.tp-parallax-wrap .tp-loop-wrap .tp-mask-wrap .slider-btn{*/
 
-        padding: 14px 35px !important;
-        font-size: 25px !important;
+    /*    padding: 14px 35px !important;*/
+    /*    font-size: 21px !important;*/
 
-        line-height: 30px;
-    }
+    /*    line-height: 30px;*/
+    /*}*/
     .products-small-header {
         font-size: 24px;
     }
@@ -18428,8 +18561,11 @@ Footer
         font-size: 40px;
     }
     .goals-p {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 29px;
+    }
+    .goals-h {
+        font-size: 38px
     }
     .goals-img-wrapper img {
         width: 65px;
@@ -18565,7 +18701,7 @@ Inner Pages
 
 .hamburger-menu{
     position: fixed;
-    z-index: 100;
+    z-index: 9;
     right: 50px;
     top: 50px;
     font-size: 50px;
@@ -18610,7 +18746,7 @@ Inner Pages
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: 17px;
     left: 15px;
     font-size: 56px;
     margin-right: 50px;
