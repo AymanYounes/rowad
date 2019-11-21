@@ -12,6 +12,7 @@ return [
     'slider2Layer2' => 'وفقًا لأحدث التقنيات',
     'slider3Layer1' => 'أحلامك تتحقق على يد',
     'slider3Layer2' => 'المحترفين والخبراء',
+    'serviceRequest' => 'أطلب الخدمة الآن',
 
     //about
 

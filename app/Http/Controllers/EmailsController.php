@@ -51,6 +51,37 @@ class EmailsController extends Controller
 //            ->send();
     }
     //
+    public function getServiceShort(Request $request)
+    {
+        $rules = [
+            'name' => 'required',
+            'phone' => 'required',
+            'message' => 'required',
+        ];
+        $this->validate($request, $rules);
+
+        $data['title'] = "Website Service page form";
+        $data['form_message'] = $request->message;
+        $data['phone'] = $request->phone;
+        $data['name'] = $request->name;
+//        $data['email'] = $request->email;
+        Mail::send('emails.contact', $data, function($message) {
+
+            $message->to('info@rowad-un.com', 'Tarek')
+                ->cc('webheadplayer@gmail.com')
+                ->subject('Website Contact form');
+        });
+        if(app()->getLocale() == 'ar'){
+            $return_message = "شكراً لاتصالك بنا ، سنقوم بالتواصل معك قريباًً";
+        }else{
+
+            $return_message = "Thank you for contacting us, we will get back to you shortly";
+        }
+
+        return back()->with("modal_message_success", $return_message);
+
+    }
+    //
     public function getService(Request $request)
     {
 //        dd($request->all());

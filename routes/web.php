@@ -65,6 +65,7 @@ Route::group(['middleware' => 'language'], function () {
 
 
     Route::get('/contact-send-email', 'EmailsController@contact')->name('contactEmail');
+    Route::get('/service-email', 'EmailsController@getServiceShort')->name('getServiceShort');
     Route::post('/offer-send-email', 'EmailsController@getService')->name('offerEmail');
 
 

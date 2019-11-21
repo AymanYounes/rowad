@@ -462,6 +462,61 @@ services section
     width: 90%;
     margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-form .form-input {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+
+.service-form .form-submit {
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.service-form #message::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.service-form #message:-moz-placeholder { /* Firefox 18- */
+    color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.service-form #message::-moz-placeholder {  /* Firefox 19+ */
+    color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.service-form #message:-ms-input-placeholder {
+    color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.service-form #message::placeholder{
+    color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
 /*** Individual section styles and separators ***/
 /* Common style for pseudo-elements */
 /* line 108, ../scss/component.scss */

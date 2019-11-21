@@ -85,6 +85,10 @@
         </div>
     </section>
 
+@endsection
+
+@section('scripts')
+
     @include('modals')
 
 @endsection

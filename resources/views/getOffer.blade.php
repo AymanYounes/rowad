@@ -189,11 +189,11 @@
         </div>
     </section>
 
-    @include('modals')
 @endsection
 
 
 @section('scripts')
+    @include('modals')
     <script>
         $('#photo').change(function() {
             var filepath = this.value;

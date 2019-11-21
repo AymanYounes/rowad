@@ -11,6 +11,7 @@ return [
     'slider2Layer2' => 'ACCRODING TO THE LATEST TECHNOLOGIES',
     'slider3Layer1' => 'YOUR DREAMS ARE REALIZED',
     'slider3Layer2' => 'BY PROFESSIONALS AND EXPERTS',
+    'serviceRequest' => 'Order the service',
 
     //about
 

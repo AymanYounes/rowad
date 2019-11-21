@@ -38,13 +38,47 @@
                 </a>
 
                 @endforeach
+<hr>
+                    <h4>{{trans('homePage.serviceRequest')}}</h4>
+
+<div class="service-form mt-20 mb-20 p-10" style="border: solid 1px #ccc;">
+
+    @if ($errors->any())
+        <div class="alert alert-danger">
+        {{ implode('', $errors->all(':message')) }}
+        </div>
+    @endif
+    <form method="get" action="{{url('/service-email')}}">
+        <div class="form-group">
+            <label for="name" class="font-bold">{{trans('homePage.fullName')}}</label>
+            <input type="text" name="name" class="form-input form-control" id="name" required>
+        </div>
+{{--        <div class="form-group">--}}
+{{--            <label for="email" class="font-bold">{{trans('homePage.emailAddress')}}</label>--}}
+{{--            <input type="email" name="email" class="form-input form-control" id="email" required>--}}
+{{--        </div>--}}
+        <div class="form-group">
+            <label for="phone" class="font-bold">{{trans('homePage.phoneNumber')}}</label>
+            <input type="number" name="phone" class="form-input form-control" id="phone" required>
+        </div>
+        <div class="form-group">
+            <!--                              <label for="phone">Phone Number</label>-->
+            <textarea name="message" class="form-input form-control" id="message" placeholder="{{trans('homePage.messageHere')}}" required></textarea>
+        </div>
+
+        <div class="form-group text-center">
+            <input type="submit" class="btn btn-primary form-submit font-tajawal font-bold pl-40 pr-40" value="{{trans('homePage.sendNow')}}">
+        </div>
+    </form>
+</div>
+
+
             </div>
 
 
 
             <div class="tab-content col-sm-9 font-tajawal">
             @foreach($services as $service)
-
 
                 <div id="{{'tab_'.$service->id}}" class="tabcontent">
                     <h3>{{$service->$title}}</h3>
@@ -71,6 +105,7 @@
 
 @section('scripts')
 
+    @include('modals')
     <script>
         function openCity(evt, cityName) {
             var i, tabcontent, tablinks;
